@@ -46,11 +46,27 @@ h2 {
 }
 
 h3 {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 h4 {
   font-size: 1.1em;
+}
+
+/* h1:before, */
+h2:before {
+  content: '■ ';
+    position: relative;
+    bottom: .1em;
+    color: #666;
+}
+
+
+h3:before {
+  content: '▶ ';
+    position: relative;
+    bottom: .1em;
+    color: #666;
 }
 
 p {
