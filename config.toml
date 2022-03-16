@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://gutofarias.github.io/braindump/"
 languageCode = "en-us"
 title = "João Gutemberg Braindump"
 theme = "cortex"
