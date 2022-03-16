@@ -1,8 +1,10 @@
 baseURL = "https://gutofarias.github.io/braindump/"
+# baseURL = "http://localhost:1313/"
 canonifyURLs = true
 languageCode = "en-us"
 title = "João Gutemberg Braindump"
 theme = "cortex"
+# theme = "cortex-dark"
 
 [params]
 email = "joao.gutemberg.farias@gmail.com"
