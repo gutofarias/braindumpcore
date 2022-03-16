@@ -4,7 +4,7 @@
 import glob
 from pathlib import Path
 
-mypath = '/Users/guto/Sync/Projetos/org/git/braindump/'
+mypath = '/Users/guto/Sync/Projetos/org/braindumpcore/'
 content_path = "\\\"" + mypath + "\\\""
 glob1 = mypath + 'org/*.org'
 glob2 = mypath + 'org/**/*.org'
