@@ -1,16 +1,37 @@
 @import url("https://rsms.me/inter/inter.css");
 
+
+:root {
+    /* --primary: rgba(127, 255, 212, 0.6); */
+    --primary: bisque;
+    --header: darkgoldenrod;
+
+  /* --fg: #eee; */
+  --fg: beige;
+  --bg: #303030;
+  --header-bg: #22272e;
+  --page-bg: #22272e;
+  --grid-bg: #1c2128;
+  --code-bg: #2e2a31;
+  --border-color: #333;
+  --link-color: var(--primary);
+  --backlink-color: rgba(127, 255, 212, 0.6);
+  --active-link-background-color: #444;
+  --shadow-color: rgba(0, 0, 0, 0.2);}
+
+
 html,
 body {
   font-family: "Inter", sans-serif;
   display: flex;
   flex-flow: column;
-  background: #fafafc;
+  background: var(--bg);
   line-height: 1.4;
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
+  color: var(--fg);
 }
 
 @supports (font-variation-settings: normal) {
@@ -25,7 +46,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 500;
+  font-weight: 400;
+  color: var(--header);
 }
 
 h1 {
@@ -42,17 +64,17 @@ h1 {
 }
 
 h2 {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 h3 {
-  font-size: 1.1em;
-  font-weight: 500;
+  font-size: 1.0em;
+  font-weight: 400;
 }
 
 h4 {
   font-size: 1.0em;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 /* h1:before, */
@@ -78,7 +100,7 @@ p {
 header {
   display: flex;
   align-items: center;
-  background: #fff;
+  background: var(-header--bg);
   border-bottom: 1px #ccc solid;
   padding: 2px;
 }
@@ -113,11 +135,11 @@ header {
 
 .page {
   white-space: normal;
-  background: #ffffff;
+  background: var(--bg);
   border-left: 1px solid rgba(0, 0, 0, 0.05);
   display: inline-block;
   width: 100%;
-  max-width: 625px;
+  max-width: 700px;
   height: 100% !important;
   max-height: 100%;
   overflow-y: auto;
@@ -134,17 +156,17 @@ header {
 }
 
 .content {
-  padding: 32px;
+  padding: 50px;
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
-  color: darkblue;
+  color: var(--link-color);
 }
 
 a.active {
-    background-color: green;
+    background-color: rgba(10, 132, 255, 0.15);
 }
 
 a:hover {
@@ -215,7 +237,7 @@ iframe {
 
 .backlinks a {
   flex: 100%;
-  color: green;
+  color: var(--backlink-color);
 }
 
 dl {
