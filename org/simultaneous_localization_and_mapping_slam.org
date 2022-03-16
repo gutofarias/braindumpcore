@@ -1,0 +1,9 @@
+#+TITLE: Simultaneous Localization and Mapping (SLAM)
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-13 Mon 19:57]
+#+LAST_MODIFIED: [2021-09-22 Wed 17:02]
+#+ROAM_TAGS: 
+
+Simultaneous Localization and Mapping also known as SLAM uses the on-board sensors of a mobile robot to make sense of its surrounds, building a map as it moves.
+

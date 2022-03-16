@@ -1,0 +1,36 @@
+#+TITLE: yacob2020 | Variation compensation in machining processes using dual quaternions
+#+CREATED: [2021-09-16 Thu 11:43]
+#+LAST_MODIFIED: [2021-09-16 Thu 16:33]
+#+ROAM_KEY: cite:yacob2020
+#+ROAM_TAGS: 
+
+The authors use DQ to compensate for variations in machining process. The variations are differences between the ideal/projected piece and the obtained through machining.
+The common way to compensate variation is using HTM. Using DQ the modeling of the problem became easier as some steps became unnecessary obtaining the same result. Also, DQ allowed to analize other types of form error which the classical model can not analize.
+
+* Info
+:PROPERTIES:
+:ID: yacob2020
+:DOCUMENT_PATH: ../../../Zotero/storage/9V2WTXXV/Yacob e Semere - 2020 - Variation compensation in machining processes usin.pdf
+:TYPE: Article
+:AUTHOR: Yacob, F., & Semere, D.
+:YEAR: 2020
+:JOURNAL: Procedia CIRP
+:DOI:  http://dx.doi.org/10.1016/j.procir.2020.04.034
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/9V2WTXXV/Yacob e Semere - 2020 - Variation compensation in machining processes usin.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/9V2WTXXV/Yacob e Semere - 2020 - Variation compensation in machining processes usin.pdf::6]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/9V2WTXXV/Yacob e Semere - 2020 - Variation compensation in machining processes usin.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/9V2WTXXV/Yacob e Semere - 2020 - Variation compensation in machining processes usin.pdf-annot-1-0
+:END:
+
+Os autores usam quatérnios duais para compensar variações em processos de usinagem. As variações são diferenças entre o planejado e o obtido.
+Esse processo é normalmente feito com HTM. Usando DQ se obteve uma simplificação na modelagem com o mesmo resultado, além disso DQ abriu caminho para analisar outros tipos de erro de forma que o modelo clássico não consegue analisar.

@@ -1,0 +1,8 @@
+#+TITLE: Strings in a Tree Graph
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 13:13]
+#+LAST_MODIFIED: [2022-02-17 Thu 13:16]
+#+ROAM_TAGS: 
+
+When performing a [[file:transforming_a_graph_into_a_tree.org][Transforming a graph into a tree]], the arcs or strings are the edges that are excluded from the graph in order to make the [[file:tree_graph.org][tree]].

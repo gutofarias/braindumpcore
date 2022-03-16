@@ -1,0 +1,11 @@
+#+TITLE: Integration with Successive Screws Method - Davies Method for Dynamics
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-08 Tue 18:43]
+#+LAST_MODIFIED: [2022-03-08 Tue 18:44]
+#+ROAM_TAGS: 
+
+Quando [[file:twist_of_a_joint.org][calculamos]] os $\hat{s}$ das juntas, esse eixo, pela modelagem, deve ser escrito no referencial móvel. Isso pode dificultar um pouco para problemas em 3d e com muitos referenciais.
+
+Será que é possível incorporar o [[file:successive_screws.org][método dos helicóides]] successivos?
+

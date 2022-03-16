@@ -1,0 +1,9 @@
+#+TITLE: Closure Loop Equations
+#+ROAM_ALIAS: "Kinematic Loop Equations"
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-09 Thu 11:22]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:43]
+#+ROAM_TAGS: 
+
+Kinematic loop equations of [[file:parallel_mechanisms.org][parallel mechanisms]]. They receive that name because the equations starts and ends at the same [[file:links_mechanism.org][link]].

@@ -1,0 +1,8 @@
+#+TITLE: org-protocol-capture
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-30 Wed 10:20]
+#+LAST_MODIFIED: [2021-06-30 Wed 10:24]
+#+ROAM_TAGS: 
+
+Acionado pelo sub-protocolo "capture", usa dados da página pra salvar um capture template por meio do [[file:org_capture.org][org-capture]]. Pode ser colocado por exemplo, o título, um link, uma seleção e também qual o template a ser usado.

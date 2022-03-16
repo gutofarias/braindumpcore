@@ -1,0 +1,8 @@
+#+TITLE: Dual-Quaternions Neural Networks
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-28 Tue 16:14]
+#+LAST_MODIFIED: [2021-09-28 Tue 16:19]
+#+ROAM_TAGS: 
+
+In this type of Neural Network neurons, weights and bias become dual quaternions instead of scalar values.

@@ -1,0 +1,37 @@
+#+TITLE: giribet2021 | Dual Quaternion Cluster-Space Formation Control
+#+CREATED: [2021-09-24 Fri 16:45]
+#+LAST_MODIFIED: [2021-09-24 Fri 17:49]
+#+ROAM_KEY: cite:giribet2021
+#+ROAM_TAGS: 
+
+The authors present a cluster-space formation control and apply it to leader-follower configuration using dual quaternions and reducing steady-state errors when compared to previous works. Experiments are made to validade the formation control using a ground and an aerial vehicles, and using two aerial vehicles.
+
+* Info
+:PROPERTIES:
+:ID: giribet2021
+:DOCUMENT_PATH: ../../../Zotero/storage/6EH4UTEB/Giribet et al. - 2021 - Dual Quaternion Cluster-Space Formation Control.pdf
+:TYPE: Article
+:AUTHOR: Giribet, J. I., Colombo, L., Moreno, P., Mas, I., & Dimarogonas, D. V.
+:YEAR: 2021
+:JOURNAL: IEEE Robot. Autom. Lett.
+:DOI:  http://dx.doi.org/10.1109/LRA.2021.3095037
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+We present a tracking controller for mobile multirobot systems based on dual quaternion pose representations applied to formations of robots in a leader-follower configuration, by using a cluster-space state approach. The proposed controller improves system performance with respect to previous works by reducing steady-state tracking errors. The performance is evaluated through experimental field tests with a formation of an unmanned ground vehicle (UGV) and an unmanned aerial vehicle (UAV), as well as a formation of two UAVs.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/6EH4UTEB/Giribet et al. - 2021 - Dual Quaternion Cluster-Space Formation Control.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/6EH4UTEB/Giribet et al. - 2021 - Dual Quaternion Cluster-Space Formation Control.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/6EH4UTEB/Giribet et al. - 2021 - Dual Quaternion Cluster-Space Formation Control.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/6EH4UTEB/Giribet et al. - 2021 - Dual Quaternion Cluster-Space Formation Control.pdf-annot-1-0
+:END:
+
+The authors present a cluster-space formation control and apply it to leader-follower configuration using dual quaternions and reducing steady-state errors when compared to previous works. Experiments are made to validade the formation control using a ground and an aerial vehicles, and using two aerial vehicles.

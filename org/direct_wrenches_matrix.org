@@ -1,0 +1,11 @@
+#+TITLE: Direct Wrenches Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 16:57]
+#+LAST_MODIFIED: [2022-02-18 Fri 17:12]
+#+ROAM_TAGS: 
+
+Is a matrix created by arranging each respective [[file:wrench.org][wrench]] (read the OBS) in a column, following the order of columns of the [[file:cut_set_matrix.org][Cut-Set Matrix]].
+
+OBS.: Actually it uses not the whole wrench, just the [[file:screw.org][screw]] associated with the wrench.
+

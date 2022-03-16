@@ -1,0 +1,8 @@
+#+TITLE: Mobile Reference Frame
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 12:34]
+#+LAST_MODIFIED: [2022-03-09 Wed 12:34]
+#+ROAM_TAGS: 
+
+

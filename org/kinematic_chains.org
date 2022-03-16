@@ -1,0 +1,9 @@
+#+TITLE: Kinematic Chains
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-09 Thu 11:31]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:43]
+#+ROAM_TAGS: 
+
+Chain of [[file:links_mechanism.org][links]] and [[file:joints.org][joints]] going from one [[file:base_link.org][base link]] to one [[file:end_link.org][end link]] (called end-effector)
+

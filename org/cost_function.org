@@ -1,0 +1,9 @@
+#+TITLE: Cost Function
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-16 Thu 18:13]
+#+LAST_MODIFIED: [2021-09-16 Thu 18:27]
+#+ROAM_TAGS: 
+
+It appears in optimization problems and is the function whose value we want to optimize. When we call it /cost function/ usually we mean that we want to /minimize/ its value. This function has to be a measure of performance somehow, meaning that the lower the value the higher the system performance.
+

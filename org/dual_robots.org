@@ -1,0 +1,8 @@
+#+TITLE: Dual Robots
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-24 Fri 11:12]
+#+LAST_MODIFIED: [2021-09-24 Fri 11:13]
+#+ROAM_TAGS: 
+
+Dual robots are two robots working together to accomplish a task. We can have a robot holding an object and another with an end-effector acting in the object.

@@ -1,0 +1,14 @@
+#+TITLE: org-noter
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:04]
+#+ROAM_TAGS: 
+
+- source :: [[https://github.com/weirdNox/org-noter]]
+
+Permite relacionar um arquivo org a um pdf. O org é usado como um arquivo pra manter as anotações relacionadas ao pdf.
+
+O org-noter é tão bom que ele sabe onde estão as notas do pdf e se passarmos pela nota no pdf ele dá highlight no org e vice-versa.
+
+Ele gera links pra a página ou numa altura específica, porém são links que só valem pro org-noter. Para links mais precisos e no formato geral de [[file:org_link.org][org-link]] é preciso usar o [[file:org_pdftools.org][org-pdftools]] e [[file:org_noter_pdftools.org][org-noter-pdftools]].

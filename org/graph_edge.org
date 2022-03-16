@@ -1,0 +1,8 @@
+#+TITLE: Graph Edge
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 12:29]
+#+LAST_MODIFIED: [2022-03-07 Mon 17:48]
+#+ROAM_TAGS: 
+
+The line that goes from one [[file:graph_node.org][node]] to another [[file:graph_node.org][node]] (i think it may even go to the same node). It can be [[file:directed_edge.org][directed]] or [[file:nondirectional_edge.org][not]].

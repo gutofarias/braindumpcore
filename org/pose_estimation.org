@@ -1,0 +1,9 @@
+#+TITLE: Pose Estimation
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-16 Thu 18:13]
+#+LAST_MODIFIED: [2021-09-17 Fri 16:56]
+#+ROAM_TAGS: 
+
+A type of [[file:estimation.org][estimation]] which estimates the pose (position + orientation) of a system
+

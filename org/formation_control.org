@@ -1,0 +1,8 @@
+#+TITLE: Formation Control
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-10-14 Thu 10:38]
+#+LAST_MODIFIED: [2021-10-14 Thu 10:38]
+#+ROAM_TAGS: 
+
+

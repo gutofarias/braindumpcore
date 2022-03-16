@@ -1,0 +1,10 @@
+#+TITLE: Feedback Linearization
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-17 Fri 11:55]
+#+LAST_MODIFIED: [2021-09-17 Fri 16:48]
+#+ROAM_TAGS: 
+
+Type of nonlinear controller
+Elaborar mais.
+

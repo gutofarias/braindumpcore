@@ -1,0 +1,10 @@
+#+TITLE: Cutting a Tree Graph
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 16:43]
+#+LAST_MODIFIED: [2022-02-18 Fri 16:48]
+#+ROAM_TAGS: 
+
+Take a line cut in the [[file:action_graph.org][Action Graph]] (straight or curved) that cuts only one [[file:branches_in_a_tree_graph.org][branch]] but separates the graph in two parts. [[file:strings_in_a_tree_graph.org][Strings]] can be cutted freely. 
+
+Positiviness of the cutted parts can be found [[file:positiveness_of_a_tree_graph_cut.org][here]].

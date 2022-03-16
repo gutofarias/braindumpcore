@@ -1,0 +1,8 @@
+#+TITLE: Kirchhoff Voltage Law - Davies Method
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 10:57]
+#+LAST_MODIFIED: [2022-02-18 Fri 11:05]
+#+ROAM_TAGS: 
+
+We start with a [[file:graph.org][Graph]] containing a loop defined by a [[file:strings_in_a_tree_graph.org][string]]. Follow the string in the direction of its arrow and go around the loop. You should account with a +1 each [[file:directed_edge.org][edge]] which the arrow is aligned with the direction you are following. And with -1 each arrow that goes against the direction you are following.

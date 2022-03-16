@@ -1,0 +1,9 @@
+#+TITLE: General Dual Quaternion with d/de
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-14 Wed 10:22]
+#+LAST_MODIFIED: [2021-09-29 Wed 11:11]
+#+ROAM_TAGS: ideas
+
+Usar o gerador d/de introduzido para representar a [[file:dual_mass.org][Dual Mass]] como sendo uma forma de generalizar o quatérnio dual, que deixaria de ser teria três quaternios (q1 + e q2 + d/de q3).
+

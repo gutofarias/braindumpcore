@@ -1,0 +1,45 @@
+#+TITLE: mirandadefarias2019 | Performance Study on dqRNEA  A Novel Dual Quaternion Based Recursive Newton-Euler Inverse Dynamics Algorithms
+#+CREATED: [2021-09-28 Tue 16:55]
+#+LAST_MODIFIED: [2021-09-29 Wed 11:47]
+#+ROAM_KEY: cite:mirandadefarias2019
+#+ROAM_TAGS: 
+
+The work do a performace study on an Recursive [[file:../newton_euler_method.org][Newton-Euler]] Inverse Dynamics Algorithm using dual quaternions. The algorithm uses Newton-Euler formulation to compute the kinematics and given the desired accelerations and external forces, computes the necessary torques of the motors to drive the system.
+
+They use dual quaternions in the kinematics and kinetics, for the inertia they create an inertia function (so not explicitily a matrix). They use a screw theory approach for the kinematics, not using DH.
+
+The performance of the algorithm using DQ is compared to using HTM, and the result is favorable to DQ, maybe like 33% less cost in terms of number of operations.
+
+* Info
+:PROPERTIES:
+:ID: mirandadefarias2019
+:DOCUMENT_PATH: ../../../Zotero/storage/K9QWSYJ5/Miranda de Farias et al. - 2019 - Performance Study on dqRNEA – A Novel Dual Quatern.pdf
+:TYPE: Inproceedings
+:AUTHOR: Miranda de Farias}, C., da Cruz Figueredo, Luis Felipe, & Yoshiyuki Ishihara, J.
+:YEAR: 2019
+:JOURNAL: 
+:DOI:  http://dx.doi.org/10.1109/IRC.2019.00022
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+In this paper, the well known recursive NewtonEuler inverse dynamics algorithm for serial manipulators is reformulated into the context of the algebra of Dual Quaternions. Here we structure the forward kinematic description with screws and line displacements rather than the well established Denavit-Hartemberg parameters, thus accounting better efficiency, compactness and simpler dynamical models. Furthermore, the backwards iteration uses the previously calculated values for estimating the joint space torques. In addition, a cost analysis of the main Dual Quaternions operations and of the Newton-Euler inverse dynamics algorithm as a whole is made and compared with other results in the literature.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/K9QWSYJ5/Miranda de Farias et al. - 2019 - Performance Study on dqRNEA – A Novel Dual Quatern.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/K9QWSYJ5/Miranda de Farias et al. - 2019 - Performance Study on dqRNEA – A Novel Dual Quatern.pdf::8]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/K9QWSYJ5/Miranda de Farias et al. - 2019 - Performance Study on dqRNEA – A Novel Dual Quatern.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/K9QWSYJ5/Miranda de Farias et al. - 2019 - Performance Study on dqRNEA – A Novel Dual Quatern.pdf-annot-1-0
+:END:
+
+The work do a performace study on an Recursive Newton-Euler Inverse Dynamics Algorithm using dual quaternions. The algorithm uses Newton-Euler formulation to compute the kinematics and given the desired accelerations and external forces, computes the necessary torques of the motors to drive the system.
+
+They use dual quaternions in the kinematics and kinetics, for the inertia they create an inertia function (so not explicitily a matrix). They use a screw theory approach for the kinematics, not using DH.
+
+The performance of the algorithm using DQ is compared to using HTM, and the result is favorable to DQ, maybe like 33% less cost in terms of number of operations.

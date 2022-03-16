@@ -1,0 +1,37 @@
+#+TITLE: wu2010 | Modelling rigid origami with quaternions and dual quaternions
+#+CREATED: [2021-10-04 Mon 15:42]
+#+LAST_MODIFIED: [2021-11-10 Wed 11:49]
+#+ROAM_KEY: cite:wu2010
+#+ROAM_TAGS: 
+
+The work uses the correspondence between single-vertex rigid origami and spherical linkage to model it as quaternions and the correspondence of multi-vertex rigid origami and spatial linkage to model it as dual quaternions.
+
+* Info
+:PROPERTIES:
+:ID: wu2010
+:DOCUMENT_PATH: ../../../Zotero/storage/YVJUMF9U/Wu e You - 2010 - Modelling rigid origami with quaternions and dual .pdf
+:TYPE: Article
+:AUTHOR: Wu, W., & You, Z.
+:YEAR: 2010
+:JOURNAL: Proc. R. Soc. A.
+:DOI:  http://dx.doi.org/10.1098/rspa.2009.0625
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+This paper examines the mathematical modelling of rigid origami, a type of origami where all the panels are rigid and can only rotate about crease lines. The rotating vector model is proposed, which establishes the loop-closure conditions among a group of characteristic vectors. By building up an explicit relationship between the single-vertex origami and the spherical linkage mechanism, the rotating vector model can conveniently and directly describe arbitrary three-dimensional configurations and can detect some self-intersection. Quaternion and dual quaternion are then employed to represent the origami model, based on which two numerical methods have been developed. Through examples, it has been shown that the first method can effectively track the entire rigid-folding procedure of an initially flat or a non-flat pattern with a single vertex or multiple vertices, and thereby provide judgment for its rigid foldability and flat foldability. Furthermore, its ability to rule out some self-intersecting configurations during folding is illustrated in detail, leading to its ability of checking rigid foldability in a more or less sufficient way. The second method is especially for analysing the multi-vertex origami. It can also effectively track the trajectories of multiple vertices during folding.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/YVJUMF9U/Wu e You - 2010 - Modelling rigid origami with quaternions and dual .pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/YVJUMF9U/Wu e You - 2010 - Modelling rigid origami with quaternions and dual .pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/YVJUMF9U/Wu e You - 2010 - Modelling rigid origami with quaternions and dual .pdf::1++0.00;;annot-1-12]]
+:ID:       ../../../Zotero/storage/YVJUMF9U/Wu e You - 2010 - Modelling rigid origami with quaternions and dual .pdf-annot-1-12
+:END:
+
+The work uses the correspondence between single-vertex rigid origami to model it as quaternions and the correspondence of multi-vertex rigid origami and spatial linkage to model it as dual quaternions.

@@ -1,0 +1,38 @@
+#+TITLE: sun2020 | Dual quaternion based dynamics modeling for electromagnetic collocated satellites of diffraction imaging on geostationary orbit
+#+CREATED: [2021-09-09 Thu 18:24]
+#+LAST_MODIFIED: [2021-09-09 Thu 18:30]
+#+ROAM_KEY: cite:sun2020
+#+ROAM_TAGS: 
+
+- tags :: [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]] 
+  
+Uses dual quaternions to model an eletromagnetic force with applications in satellites. Also derives the dynamics equations of the satellites subject to this force.
+
+* Info
+:PROPERTIES:
+:ID: sun2020
+:DOCUMENT_PATH: ../../../Zotero/storage/8KVNN9JK/Sun et al. - 2020 - Dual quaternion based dynamics modeling for electr.pdf
+:TYPE: Article
+:AUTHOR: Sun, X., Wu, X., Chen, W., Hao, Y., Mantey, K. A., & Zhao, H.
+:YEAR: 2020
+:JOURNAL: Acta Astronautica
+:DOI:  http://dx.doi.org/10.1016/j.actaastro.2019.10.015
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+This paper proposes an innovated approach to model an electromagnetic force which is an ideal control force without plume and light pollution for optical imaging system. The main scope is modeling the 3-axis coupled electromagnetic force using dual quaternion for its advantages in describing spiral motion with translation and rotation motion simultaneously. The derivation procedure relies on a far field model of the electromagnetic force, and also, the force is re-formulized. Final equations show the dual quaternion dynamics can express the relative motion caused by the electromagnetic force acting on the position and attitude integrally. A new mission concept of diffraction imaging system in GEO is discussed as application scenario of the new dynamics model. Two cases with different mass were simulated to verify the new model, and the results display the electromagnetic force is significant for a small mass spacecraft in GEO.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/8KVNN9JK/Sun et al. - 2020 - Dual quaternion based dynamics modeling for electr.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/8KVNN9JK/Sun et al. - 2020 - Dual quaternion based dynamics modeling for electr.pdf::1]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/8KVNN9JK/Sun et al. - 2020 - Dual quaternion based dynamics modeling for electr.pdf::1++0.00;;annot-1-23]]
+:ID:       ../../../Zotero/storage/8KVNN9JK/Sun et al. - 2020 - Dual quaternion based dynamics modeling for electr.pdf-annot-1-23
+:END:
+
+Não li muito porque foge um pouco da minha área, mas o interessante é que usa quatérnios duais para modelar uma força eletromagnética.

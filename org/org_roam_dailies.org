@@ -1,0 +1,14 @@
+#+TITLE: org-roam-dailies
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:10]
+#+ROAM_TAGS: 
+
+Pelo que percebi, faz parte do [[file:org_roam.org][org-roam]].
+
+Não sei se deveria ter uma nota só pra ele mas qualquer coisa apago essa depois.
+
+A utilidade de utilizar o org-roam-dailies é para fazer anotações diárias sobre aquilo que está sendo trabalhado para depois processar essas anotações e gerar notas permanentes.
+
+As notas geradas no org-roam-dailies são consideradas dentro do método de [[file:zettelkasten.org][slip-box]] como notas temporárias. Apesar disso elas não serão apagadas durante o uso do org-roam, pela facilidade de armazenamento que os computadores trazem em relação ao modelo inicial feito com papel.

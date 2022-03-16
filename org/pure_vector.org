@@ -1,0 +1,9 @@
+#+TITLE: Pure Vector
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-29 Wed 11:10]
+#+LAST_MODIFIED: [2021-09-29 Wed 11:23]
+#+ROAM_TAGS: 
+
+Uma grandeza chamada de vetor puro no contexto de [[file:screw_theory.org][Screw Theory]] é um vetor que a ação dele não possui uma posição definida nem tem um comportamento de linha. Por exemplo, um momento puro faz o mesmo efeito num corpo rígido não importa o local onde é aplicado, outro exemplo é a velocidade do centro de massa do corpo (é como se o corpo todo tivesse essa velocidade e o que for diferente for devido à rotação do corpo). Essa grandeza em termos de quaternios duais fica sempre na [[file:dual_part.org][parte dual]].
+

@@ -1,0 +1,24 @@
+#+TITLE: brodsky_dual_1994 | The Dual Inertia Operator and Its Application to Robot Dynamics
+#+CREATED: [2022-03-09 Wed 13:32]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:32]
+#+ROAM_KEY: cite:brodsky_dual_1994
+#+ROAM_TAGS: 
+
+* Info
+:PROPERTIES:
+:ID: brodsky_dual_1994
+:DOCUMENT_PATH: ../../../Zotero/storage/FMRTZXQX/Brodsky e Shoham - 1994 - The Dual Inertia Operator and Its Application to R.pdf
+:TYPE: Article
+:AUTHOR: Brodsky, V., & Shoham, M.
+:YEAR: 1994
+:JOURNAL: Journal of Mechanical Design
+:DOI:  http://dx.doi.org/10.1115/1.2919491
+:URL: ---
+:KEYWORDS: lido1
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/FMRTZXQX/Brodsky e Shoham - 1994 - The Dual Inertia Operator and Its Application to R.pdf
+:END:

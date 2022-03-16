@@ -1,0 +1,8 @@
+#+TITLE: Dual Operator
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 13:24]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:26]
+#+ROAM_TAGS: 
+
+In [[file:dual_numbers.org][Dual Numbers]] the $\epsilon$ can be thougth of as an operator that takes a quantity from the [[file:real_part.org][Real Part]] and puts it on the [[file:dual_part.org][Dual Part]]. Of course when the operator acts on a quantity in the dual part, it turns it to zero because $\epsilon^2 = 0$.

@@ -1,0 +1,10 @@
+#+TITLE: Hyper-Dual Vectors
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-07 Mon 13:58]
+#+LAST_MODIFIED: [2022-03-07 Mon 13:59]
+#+ROAM_TAGS: 
+
+It is a vector in which its components are [[file:hyper_dual_numbers.org][Hyper-Dual Numbers]]
+
+Can be used to compute the pose and its derivative from at the same dual vector structure, using the [[file:automatic_differentiation.org][Automatic Differentiation]] property. 

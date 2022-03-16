@@ -1,0 +1,11 @@
+#+TITLE: Relative Jacobian
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-29 Wed 18:38]
+#+LAST_MODIFIED: [2021-09-29 Wed 19:04]
+#+ROAM_TAGS: 
+
+I didn't understand very well, looks like a normal jacobian but maybe the jacobian of a relative motion of two frames.
+
+Used in cite:chandra2018
+

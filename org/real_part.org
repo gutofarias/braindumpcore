@@ -1,0 +1,8 @@
+#+TITLE: Real Part
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-29 Wed 11:21]
+#+LAST_MODIFIED: [2021-09-29 Wed 11:22]
+#+ROAM_TAGS: 
+
+The real part of a dual quantity (like a [[file:dual_numbers.org][Dual Number]]) is the part that *is not* multiplied by $\varepsilon$.

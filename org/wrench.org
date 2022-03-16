@@ -1,0 +1,12 @@
+#+TITLE: Wrench
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 12:34]
+#+LAST_MODIFIED: [2022-02-18 Fri 12:38]
+#+ROAM_TAGS: 
+
+In [[file:screw_theory.org][Screw Theory]], a wrench is a [[file:screw.org][Screw]] carrying an action, which is a screw multiplied by a force quantity.
+
+If we describe a wrench as a [[file:dual_vector.org][dual vector]], the result is a force vector in the [[file:real_part.org][real part]] and a moment vector in the [[file:dual_part.org][dual part]] of the wrench.
+
+If we describe a wrench using [[file:plucker_coordinates.org][Plucker Coordinates]], the first three components are the force and last three are the moment.

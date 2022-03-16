@@ -1,0 +1,41 @@
+#+TITLE: Learning Elm
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-18 Sun 17:51]
+#+LAST_MODIFIED: [2021-08-11 Wed 22:37]
+#+ROAM_TAGS: 
+
+Material for learning [[file:../elm.org][Elm]].
+
+Good sources:
+- [ ] https://guide.elm-lang.org/
+- [ ] https://github.com/dwyl/learn-elm
+- [ ] https://github.com/dwyl/learn-elm-architecture-in-javascript
+- [X] https://terezka.github.io/line-charts/
+- [ ] https://github.com/elm/svg
+- [ ] https://github.com/johnpmayer/elm-webgl
+- [X] https://youtu.be/x1FU3e0sT1I ("Make Data Structures" by Richard Feldman)
+- [ ] https://github.com/evancz/elm-todomvc
+- [ ] https://github.com/sporto/awesome-elm
+
+  
+Seria bom depois ver como funciona o [[file:../hot_swapping_elm.org][Hot Swapping (Elm)]] em Elm.
+[[file:../html_to_elm_elm.org][Html to Elm (Elm)]]
+
+Dois pacotes importantes que eu vou usar [[file:../elm_charts.org][elm-charts]] e [[file:../graphicsvg.org][GraphicSVG]]
+Além de [[file:../elm_spa.org][elm-spa]]
+
+
+Muito importante sobre otimização de funções recursivas
+https://jfmengels.net/tail-call-optimization/
+
+
+Para fazer gráficos eu tenho várias opções como [[file:../graphicsvg.org][GraphicSVG]], [[file:../elm_playground.org][elm-playground]], [[file:../typed_svg_elm.org][typed-svg]] e [[file:../elm_geometry.org][elm-geometry]]
+
+Ainda tem o elm-particle que pode fazer a agua saindo do nivel 
+
+* Coisas a perguntar ao criador do elm-geometry
+- Se a biblioteca elm-geometry-svg consegue gerar um svg a partir de uma vista de algo em 3d
+- Se tem alguma alternativa pra fazer gráficos de dados em 3d (3d data plot)
+- Eu vi que você falou em CAD e achei muito legal sua iniciativa pq odeio desenhar em cad mas adoro programar. Pra mim faria muito sentido ter um programa de CAD que funcionasse por meio de um script ou algo híbrido.
+

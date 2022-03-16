@@ -1,0 +1,8 @@
+#+TITLE: 2021-07-08
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+ROAM_TAGS: 
+
+* Ideia sobre ângulos de euler duais
+[[file:../dual_euler_angles.org][Ângulos de Euler Duais]] de forma que a parte dual dos ângulos consiga retratar a posição do sistema. Isto é, os ângulos de euler duais tratariam de uma vez posição e orientação.
+

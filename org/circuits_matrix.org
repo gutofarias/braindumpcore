@@ -1,0 +1,9 @@
+#+TITLE: Circuits Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 11:07]
+#+LAST_MODIFIED: [2022-02-18 Fri 16:26]
+#+ROAM_TAGS: 
+
+Each column relates to an [[file:graph_edge.org][edge]] of the [[file:motion_graph.org][Motion Graph]], so there are as many columns as edges. 
+For each [[file:networks_graph.org][Networks Graph]] there should be a row in the matrix. The contents of each row is derived by applying [[file:kirchhoff_voltage_law_davies_method.org][Kirchhoff Voltage Law]].

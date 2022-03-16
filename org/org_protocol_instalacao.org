@@ -1,0 +1,82 @@
+#+TITLE: org-protocol instalação
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-30 Wed 10:39]
+#+LAST_MODIFIED: [2021-06-30 Wed 11:58]
+#+ROAM_TAGS: 
+
+- source :: https://www.orgroam.com/manual.html
+
+* Configuração no Sistema
+
+Segue os passos:
+
+1) Abre o Editor de Scripts e coloca o seguinte script (alterando o path do [[file:emacsclient.org][emacsclient]])
+
+   #+begin_src applescript
+   on open location this_URL
+     set EC to "/usr/local/bin/emacsclient --no-wait "
+     set filePath to quoted form of this_URL
+     do shell script EC & filePath
+     tell application "Emacs" to activate
+   end open location
+   #+end_src
+
+2) Salva o script com o nome de "org-protocol.app" (o nome não é importante). Tem que ser salvo na pasta "/Applications" e deve ser salvo como app e não como script. 
+   
+3) Edita "/Applications/OrgProtocolClient.app/Contents/Info.plist" adicionando antes do ULTIMO tag =</dict>= 
+
+   #+begin_src plist
+ <key>CFBundleURLTypes</key>
+ <array>
+   <dict>
+     <key>CFBundleURLName</key>
+     <string>org-protocol handler</string>
+     <key>CFBundleURLSchemes</key>
+     <array>
+       <string>org-protocol</string>
+     </array>
+   </dict>
+ </array>
+   #+end_src
+
+4) Salva o arquivo e executa o app uma vez pra registrar o protocolo.
+
+* Configuração no navegador
+
+Pra usar o um protocolo do [[file:org_protocol.org][org-protocol]] a partir do navegador é preciso adicionar [[file:bookmarklet.org][bookmarklet]]s.
+
+Eu adicionei os seguintes bookmarklets abaixo. Para acioná-los basta estar na página desejada e clicar no respectivo item nos favoritos.
+
+** [[file:org_protocol_store_link.org][org-protocol-store-link]]
+
+#+NAME: Org Store Link
+#+begin_src javascript
+     javascript:location.href ='org-protocol://store-link?url=' + encodeURIComponent(location.href)
+  + '&title=' + encodeURIComponent(document.title);
+#+end_src
+
+** [[file:org_protocol_capture.org][org-protocol-capture]]
+#+NAME: Org Capture
+#+begin_src javascript
+    javascript:location.href = 'org-protocol://capture?url=' + encodeURIComponent(location.href)
+    + '&title=' + encodeURIComponent(document.title);
+#+end_src
+
+
+- sources :: [[https://jingsi.space/post/2017/04/30/org-protocol/]], http://www.diegoberrocal.com/blog/2015/08/19/org-protocol/
+
+
+** Brave prompt de confimação
+
+Tem que fazer algum comando pra que o brave pare de pedir o prompt de confirmação cada vez que tenta-se executar um protocolo.
+
+Tem essa configuração pra Chrome, testei e pelo visto não funcionou. A não ser que funcione após reiniciar.
+
+#+begin_src sh
+    defaults write com.google.Chrome ExternalProtocolDialogShowAlwaysOpenCheckbox -bool true
+#+end_src
+
+*  [[file:org_roam_protocol.org][org-roam-protocol]]
+
+Não precisei adicionar nenhum [[file:bookmarklet.org][bookmarklet]] porque o [[file:roam_file_protocol.org][roam-file protocol]] já funciona com os links que vem no grafo. Já o [[file:roam_ref_protocol.org][roam-ref protocol]] precisaria adicionar o bookmarklet pra usar. Mas ainda não o fiz.

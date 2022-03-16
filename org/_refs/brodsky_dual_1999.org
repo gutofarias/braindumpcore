@@ -1,0 +1,26 @@
+#+TITLE: brodsky_dual_1999 | Dual numbers representation of rigid body dynamics
+#+CREATED: [2022-03-09 Wed 13:34]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:34]
+#+ROAM_KEY: cite:brodsky_dual_1999
+#+ROAM_TAGS: 
+
+* Info
+:PROPERTIES:
+:ID: brodsky_dual_1999
+:DOCUMENT_PATH: ../../../Zotero/storage/9W83WMKQ/Brodsky e Shoham - 1999 - Dual numbers representation of rigid body dynamics.pdf
+:TYPE: Article
+:AUTHOR: Brodsky, V., & Shoham, M.
+:YEAR: 1999
+:JOURNAL: Mechanism and Machine Theory
+:DOI:  http://dx.doi.org/10.1016/S0094-114X(98)00049-4
+:URL: ---
+:KEYWORDS: nlido
+:END:
+:ABSTRACT:
+A three-dimensional representation of rigid body dynamic equations becomes possible by introducing the dual inertia operator. This paper generalizes this result and by using motor transformation rules and the dual inertia operator, gives a general expression for the three-dimensional dynamic equation of a rigid body with respect to an arbitrary point.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/9W83WMKQ/Brodsky e Shoham - 1999 - Dual numbers representation of rigid body dynamics.pdf
+:END:

@@ -1,0 +1,41 @@
+#+TITLE: wang2018 | A Method of Robot Base Frame Calibration by Using Dual Quaternion Algebra
+#+CREATED: [2021-10-01 Fri 11:05]
+#+LAST_MODIFIED: [2021-10-01 Fri 11:35]
+#+ROAM_KEY: cite:wang2018
+#+ROAM_TAGS: 
+
+The work proposes a method for calibrating the transformation between the [[file:../inertial_frame.org][inertial/world frame]] and the [[file:../body_frame.org][robot frame]]. It uses a sensor to measure the position of the [[file:../end_link.org][end-effector]] and calibrates the dual quaternion resposible to acheive the transformation.
+
+The result was much favorable to the dual quaternion method when compared to a quaternion method and a Procrustes Analysis. The authors credits the higher precision of dual quaternions due to the fact that it computes rotation and translation coupled, so there is no error propagation when computing one and using the result to compute the other.
+
+* Info
+:PROPERTIES:
+:ID: wang2018
+:DOCUMENT_PATH: ../../../Zotero/storage/49PZLJ55/Wang et al. - 2018 - A Method of Robot Base Frame Calibration by Using .pdf
+:TYPE: Article
+:AUTHOR: Wang, G., Liu, X., & Han, S.
+:YEAR: 2018
+:JOURNAL: IEEE Access
+:DOI:  http://dx.doi.org/10.1109/ACCESS.2018.2882502
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+When the robot is required to execute a certain task in the world coordinate system (WCS), it is necessary to find the coordinate transformation between the robot base coordinate system (RBCS) and WCS to enable the high precision motion planning. This paper presents a simple and accurate method that allows a simultaneous computation of the coordinate transformations (i.e., rotation and translation) from WCS to RBCS. Based on the dual quaternion, the robot kinematic model and formulas for calculating the transformation are derived, which allow calculating the rotation and translation simultaneously. Taking the unit dual quaternion as a constraint, the Lagrangian multiplier method is employed to obtain the optimum transformation. Both simulation and experiment results show that higher calibration precision is obtained. The proposed approach has certain reference value and guiding sense for other calibration problems.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/49PZLJ55/Wang et al. - 2018 - A Method of Robot Base Frame Calibration by Using .pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/49PZLJ55/Wang et al. - 2018 - A Method of Robot Base Frame Calibration by Using .pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/49PZLJ55/Wang et al. - 2018 - A Method of Robot Base Frame Calibration by Using .pdf::1++0.00;;annot-1-1]]
+:ID:       ../../../Zotero/storage/49PZLJ55/Wang et al. - 2018 - A Method of Robot Base Frame Calibration by Using .pdf-annot-1-1
+:END:
+
+The work proposes a method for calibrating the transformation between the intertial/world frame and the robot frame. It uses a sensor to measure the position of the end-effector and calibrates the dual quaternion resposible to acheive the transformation.
+
+The result was much favorable to the dual quaternion method when compared to a quaternion method and a Procrustes Analysis. The authors credits the higher precision of dual quaternions due to the fact that it computes rotation and translation coupled, so there is no error propagation when computing one and using the result to compute the other.

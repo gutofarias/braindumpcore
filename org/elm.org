@@ -1,0 +1,10 @@
+#+TITLE: Elm
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-18 Sun 17:46]
+#+LAST_MODIFIED: [2021-07-18 Sun 17:53]
+#+ROAM_TAGS: 
+
+A [[file:functional_programming.org][Functional Programming]] language made to write [[file:web_applications.org][Web Applications]], or I think maybe more like front-end stuff. The language emphasis is on easy of use, no been overly complicated. Has a syntax similar to [[file:haskell.org][Haskell]].
+
+I did some reseach in the topic so to produce something support material for my classes and a reason to practice Haskell. Elm although is not as haskellish as [[file:purescript.org][Purescript]], turns out to be way simpler to work, as far as I could tell.

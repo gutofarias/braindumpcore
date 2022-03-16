@@ -1,0 +1,9 @@
+#+TITLE: Vector of Action Parameters
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 17:02]
+#+LAST_MODIFIED: [2022-02-18 Fri 17:04]
+#+ROAM_TAGS: 
+
+A column vector where each element is one [[file:joints.org][Joints]] constraints variable as defined in [[file:wrench_of_a_joint.org][Wrench of a Joint]].
+

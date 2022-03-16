@@ -1,0 +1,12 @@
+#+TITLE: Twist
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 15:17]
+#+LAST_MODIFIED: [2022-02-17 Thu 15:26]
+#+ROAM_TAGS: 
+
+In [[file:screw_theory.org][Screw Theory]], a twist is a [[file:screw.org][Screw]] carrying motion, which is a screw multiplied by an angular velocity quantity.
+
+If we describe a twist as a [[file:dual_vector.org][dual vector]], the result is a angular velocity vector in the [[file:real_part.org][real part]] and a linear velocity vector in the [[file:dual_part.org][dual part]] of the twist.
+
+If we describe a twist using [[file:plucker_coordinates.org][Plucker Coordinates]], the first three are the angular velocity and last three are the linear velocity.

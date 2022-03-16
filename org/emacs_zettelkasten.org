@@ -1,0 +1,115 @@
+#+TITLE: Emacs Zettelkasten
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-07-02 Fri 16:23]
+#+ROAM_TAGS: 
+
+Minha configuração no Emacs pra usar o método [[file:zettelkasten.org][Zettelkasten]].
+
+* Transição para Org com Zettelkasten
+
+** TODO Pacotes para instalar e configurar
+
+1) [X] [[file:org_roam.org][org-roam]] 
+2) [X] [[file:org_noter.org][org-noter]]
+3) [X] [[file:org_pdftools.org][org-pdftools]]
+4) [X] [[file:org_noter_pdftools.org][org-noter-pdftools]] 
+5) [X] [[file:zotero.org][Zotero]] + [[file:better_bibtex_extension_zotero.org][Better Bibtex Extension (Zotero)]] 
+6) [X] [[file:ivy_bibtex.org][ivy-bibtex]]
+7) [X] [[file:org_ref.org][org-ref]]
+8) [X] [[file:org_roam_bibtex_orb.org][Org Roam Bibtex (ORB)]]
+9) [X] [[file:org_roam_dailies.org][org-roam-dailies]]
+10) [X] [[file:deft.org][Deft]]
+11) [X] [[file:org_protocol.org][org-protocol]]
+12) [X] [[file:org_protocol_instalacao.org][org-protocol instalação]]
+13) [X] [[file:org_roam_protocol.org][org-roam-protocol]] 
+14) [X] [[file:org_roam_server.org][org-roam-server]] 
+15) [ ] [[file:org_protocol_capture_html.org][org-protocol-capture-html]]
+16) [ ] [[file:org_download.org][org-download]]
+17) [ ] [[file:org_cliplink.org][org-cliplink]]
+  
+** Material de estudo
+
+*** EmacsConf 2020 - 17 - Org-mode and Org-Roam for Scholars and Researchers - Noorah Alhasan
+[[https://youtu.be/bTbiC6SamT4]]
+
+*** An Orgmode Note Workflow
+[[https://rgoswami.me/posts/org-note-workflow/]]
+
+*** Blog Jethro [6/6]
+- [X] [[https://blog.jethro.dev/posts/org_mode_workflow_preview/]]
+- [X] [[https://blog.jethro.dev/posts/automatic_publishing/]]
+- [X] [[https://blog.jethro.dev/posts/introducing_org_roam/]]
+- [X] [[https://blog.jethro.dev/posts/how_to_take_smart_notes_org/]]
+- [X] [[https://blog.jethro.dev/posts/self_tracking_in_plain_text/]]
+- [X] [[https://blog.jethro.dev/posts/taking_srs_seriously/]]
+  
+*** Recomendado no manual do org-roam
+- [ ] [[https://www.lesswrong.com/posts/NfdHG6oHBJ8Qxc26s/the-zettelkasten-method-1]]
+- [ ] [[https://www.reddit.com/r/RoamResearch/comments/eho7de/building_a_second_brain_in_roamand_why_you_might/]]
+
+*** DONE Configurar meu template do orb
+
+*** DONE Ver como fica a questão do path das anotações
+No caso a anotação cite:filipe_adaptive_2015 está dentro da pasta do /slip-box/ mas era pra estar na pasta /refs/.
+
+*** DONE Ver se coloca ou não o cite-key no título
+Coloquei
+
+*** DONE Definir quais funções fazer o quê e quais usar.
+
+**** orb-insert
+Insere referência criando uma nota literária se preciso. É útil pra inserir referências e ao mesmo tempo criar as notas literárias. Configurei pra inserir as referências como citação do org-ref. Customizável em orb-insert-link-description. Outra opção seria usar esse comando pra fazer link do org-roam das notas literárias enquanto que usaria o org-ref-insert-link pra fazer citações.
+
+**** org-ref-insert-link
+Insere referência sem criar uma nota literária. O padrão do org-ref é um link dado por =cite:citekey=.
+
+**** orb-insert-non-ref
+Seria a mesma coisa do org-roam-insert porém exclui as notas literárias. Termina ficando mais útil do que o org-roam-insert porque separa as notas permanentes das notas literárias.
+
+**** org-roam-insert
+Insere um link do org-roam pra uma nota dentro da pasta do zettelkasten. Pode ser qualquer nota. Acho que orb-insert-non-ref terminará sendo mais útil a não ser que se queira inserir um link do org-roam de uma nota literária (sem ser um link de citação).
+
+**** ivy-bibtex
+Leva para o pdf a partir de uma entrada de citação. Mostra todos as suas citações e quando você seleciona ele leva pra o respectivo pdf.
+
+*** DONE Ver se faz sentido as coisas de refs ficarem dentro da pasta vigiada pelo org-roam
+Faz sim
+
+*** DONE Configurar org-roam-dailies
+
+*** DONE Configurar meu template do org-roam
+
+*** DONE Consertar o título das notas já criadas. Cuidar para que não seja quebrado nenhum backlink
+
+*** DONE Ver as funções orb-persp-project e orb-switch-persp
+Pelo que entendi tem que usar o projectile tbm pra isso funcionar
+
+*** DONE Configurar meus keybindings
+
+(("C-c n i" . orb-insert-non-ref))
+(("C-c n I" . org-roam-insert-immediate))
+(("C-c n c" . orb-insert))
+(("C-c n C" . org-ref-insert-link))
+(("C-c n n" . org-noter))
+(("C-c n b" . ivy-bibtex))
+
+
+*** DONE Configurar faces
+
+**** DONE Nano Face Critical
+[[file:hfuidshfu][testedjoifjsdfioj]]
+#+begin_src emacs-lisp
+  (set-face-attribute 'nano-face-critical nil :foreground "#ff757f" :weight 'bold :background 'unspecified)
+#+end_src
+
+**** DONE Org Roam Tags
+
+#+begin_src emacs-lisp
+  ;; mudei pra isso pq usando o set-face-attribute tava cagando o carregamento de tudo que vinha depois
+  ;; Apesar disso, nao vi diferença nessa face. Porém deixei aqui a forma de colocar pelo custom no lugar do set-face-attribute
+  (custom-theme-set-faces
+   'user
+   '(org-roam-tag ((t (:weight bold)))))
+#+end_src

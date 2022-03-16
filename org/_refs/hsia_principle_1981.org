@@ -1,0 +1,42 @@
+#+TITLE: hsia_principle_1981 | On the Principle of Transference In Three-Dimensional Kinematics
+#+CREATED: [2021-07-06 Tue 11:16]
+#+LAST_MODIFIED: [2021-07-07 Wed 11:07]
+#+ROAM_KEY: cite:hsia_principle_1981
+#+ROAM_TAGS: 
+
+* Info
+:PROPERTIES:
+:ID: hsia_principle_1981
+:DOCUMENT_PATH: ../../../Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf
+:TYPE: Article
+:AUTHOR: Hsia, L. M., & Yang, A. T.
+:YEAR: 1981
+:JOURNAL: Journal of Mechanical Design
+:DOI:  http://dx.doi.org/10.1115/1.3254966
+:URL: http://MechanicalDesign.asmedigitalcollection.asme.org/article.aspx?articleid=1451556
+:KEYWORDS: nlido
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf::5]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf-annot-1-0
+:END:
+
+O trabalho mostra uma forma de transformar uma matriz de transformação dual em um par com uma matriz de transformação e um vetor posição. O autor usa isso pra converter "dual instantaneous invariants" (baseadas em retas) para "instantaneous invariants" (baseadas em pontos). Isso de alguma forma tem a ver com trajetórias de retas e trajetórias de pontos respectivamente.
+
+[[file:../screw_calculus.org][Screw Calculus]] parece ser um tema interessante. Será que tem alguma ligação com [[file:../dynamics_extension_for_davies_method.org][Dynamics Extension for Davies Method]]? Vale a pena analisar. 
+ 
+** [A]={[I] + e[D])[A]
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf::2++8.21;;annot-2-0]]
+:ID:       ../../../Zotero/storage/2ERAINCF/Hsia e Yang - 1981 - On the Principle of Transference In Three-Dimensio.pdf-annot-2-0
+:END:
+
+Interessante que a transformação de uma [[file:../dual_transformation_matrix.org][matriz de transformação dual]] pra um par com [[file:../transformation_matrix.org][matriz de transformação]] mais vetor posição não é complicada e se dá por meio de uma [[file:../skew_symmetric_matrix.org][skew-symmetric matrix]]. E que o autor se refere a essa transformação como [[file:../transference_principle.org][Transference Principle]].

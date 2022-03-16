@@ -1,0 +1,10 @@
+#+TITLE: End Link
+#+ROAM_ALIAS: "End-Effector"
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-09 Thu 11:40]
+#+LAST_MODIFIED: [2021-10-07 Thu 18:15]
+#+ROAM_TAGS: 
+
+The final [[file:links_mechanism.org][link]] of a [[file:mechanisms.org][mechanism]], the one that does the intended motion which is the purpose of the mechanism.
+

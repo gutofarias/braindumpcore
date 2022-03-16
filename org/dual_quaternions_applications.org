@@ -1,0 +1,11 @@
+#+TITLE: Dual Quaternions Applications
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-08 Thu 12:02]
+#+LAST_MODIFIED: [2021-07-09 Fri 10:37]
+#+ROAM_TAGS: 
+
+Nota pra fazer esboço da continuação do artigo de aplicações de quaternios duais.
+
+Será útil para ajudar na construção do [[file:_writing/article_dual_quaternions_applications.org][Article - Dual Quaternions Applications]]
+

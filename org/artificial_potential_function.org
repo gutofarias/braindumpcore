@@ -1,0 +1,8 @@
+#+TITLE: Artificial Potential Function
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-10-14 Thu 10:39]
+#+LAST_MODIFIED: [2021-10-14 Thu 10:42]
+#+ROAM_TAGS: 
+
+I saw it in an article (cite:huang2017) and it was used for [[file:collision_avoidance.org][collision avoidance]] in a [[file:formation_control.org][formation control]]. The idea was to add a repulsive field over the spacecrafts. This repulsive field would generate a repulsive force when two spacecrafts were getting close. Then the repulsive force would be added to the control law.

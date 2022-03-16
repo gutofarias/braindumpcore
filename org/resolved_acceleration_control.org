@@ -1,0 +1,16 @@
+#+TITLE: Resolved-Acceleration Control
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-17 Fri 11:56]
+#+LAST_MODIFIED: [2021-09-17 Fri 17:48]
+#+ROAM_TAGS: 
+
+Is a method for [[file:task_space.org][task space]] control.
+
+It consists in compute the torques and forces using the second order (acceleration) kinematics of the system. In order to do that one has to plan a trajectory to have the desired kinematics of the [[file:end_link.org][end-effector]]. Then, compute the joints acceleration (using the end-effector kinematics) and then compute the torques and forces necessary to create such accelerations.
+
+The controller is presented in:
+
+Luh, J., Walker, M., & Paul, R. (1980). Resolved-acceleration control of mechanical manipulators. IEEE Trans. Automat. Contr., 25(3), 468–474. http://dx.doi.org/10.1109/TAC.1980.1102367
+
+[[file:_refs/luh1980.org][luh1980 | Resolved-acceleration control of mechanical manipulators]]

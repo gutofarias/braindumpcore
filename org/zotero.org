@@ -1,0 +1,10 @@
+#+TITLE: Zotero
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:09]
+#+ROAM_TAGS: 
+
+Programa famoso e open source para gerenciamento de referências.
+
+Vou adicionar a extensão [[file:better_bibtex_extension_zotero.org][Better Bibtex Extension (Zotero)]]

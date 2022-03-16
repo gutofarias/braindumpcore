@@ -1,0 +1,9 @@
+#+TITLE: Dual Transformation Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-07 Wed 10:41]
+#+LAST_MODIFIED: [2021-07-07 Wed 10:41]
+#+ROAM_ALIAS: "Matriz de Transformação Dual"
+#+ROAM_TAGS: 
+
+

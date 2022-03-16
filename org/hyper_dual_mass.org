@@ -1,0 +1,14 @@
+#+TITLE: Hyper-Dual Mass
+#+ROAM_ALIAS: "Hyper-Dual Inertia"
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 13:18]
+#+LAST_MODIFIED: [2022-03-09 Wed 15:39]
+#+ROAM_TAGS: 
+
+Extension of the [[file:dual_mass.org][Dual Mass]] for the [[file:hyper_dual_numbers.org][Hyper-Dual]] domain by adding the derivative of the dual mass.
+
+$$ \check{M}_i = M_i + \check{\epsilon} \, \dot{M}_i $$
+
+$$ \check{M}_i = {_I}I_{i} \, \epsilon + m_{i} \, d\epsilon + \check{\epsilon} \,  ({_I}\dot{I}_{i} \, \epsilon ) $$
+

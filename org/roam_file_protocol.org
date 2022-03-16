@@ -1,0 +1,8 @@
+#+TITLE: roam-file protocol
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-30 Wed 10:36]
+#+LAST_MODIFIED: [2021-06-30 Wed 10:37]
+#+ROAM_TAGS: 
+
+Acionado pelo sub-protocol "roam-file". Abre o path especificado pela key "file". É usado nos grafos gerados.

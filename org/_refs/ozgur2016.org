@@ -1,0 +1,37 @@
+#+TITLE: ozgur2016 | Kinematic modeling and control of a robot arm using unit dual quaternions
+#+CREATED: [2021-09-21 Tue 17:57]
+#+LAST_MODIFIED: [2021-09-22 Wed 11:57]
+#+ROAM_KEY: cite:ozgur2016
+#+ROAM_TAGS: 
+
+Very interesting article of kinematic modeling and control of robotic arms. It uses a [[file:../screw_theory.org][Screw Theory]] approach to model the kinematics, much like [[file:../successive_screws.org][Successive Screws]], but using only one frame, doesn't need a [[file:../convenient_frame.org][convenient frame]]. Also the metodology is mind opening someway because the authors model the rotations from [[file:../end_link.org][end-effector]] to [[file:../base_link.org][base]], and not the opositte, which in my opinion is easier to understand because going from end to base the successive rotations are not carried by the previous rotations.
+
+* Info
+:PROPERTIES:
+:ID: ozgur2016
+:DOCUMENT_PATH: ../../../Zotero/storage/ARMQ9J8R/Özgür e Mezouar - 2016 - Kinematic modeling and control of a robot arm usin.pdf
+:TYPE: Article
+:AUTHOR: \"Ozg\"ur, Erol, & Mezouar, Y.
+:YEAR: 2016
+:JOURNAL: Robotics and Autonomous Systems
+:DOI:  http://dx.doi.org/10.1016/j.robot.2015.12.005
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+This paper exploits screw theory expressed via unit dual quaternion representation and its algebra to formulate both the forward (position + velocity) kinematics and pose control of an n-dof robot arm in an efficient way. Efficiency is in less computer memory usage, in fast computation of the equations, in singularity-free representation of task space, in robustness to numerical errors, and in compactness of the representations. The formulation is simple, intuitive and straightforward to implement. We validated this formulation experimentally on a 7 dof robot arm.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/ARMQ9J8R/Özgür e Mezouar - 2016 - Kinematic modeling and control of a robot arm usin.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/ARMQ9J8R/Özgür e Mezouar - 2016 - Kinematic modeling and control of a robot arm usin.pdf::1]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/ARMQ9J8R/Özgür e Mezouar - 2016 - Kinematic modeling and control of a robot arm usin.pdf::1++0.00;;annot-1-31]]
+:ID:       ../../../Zotero/storage/ARMQ9J8R/Özgür e Mezouar - 2016 - Kinematic modeling and control of a robot arm usin.pdf-annot-1-31
+:END:
+
+Very interesting article of kinematic modeling and control of robotic arms. It uses a [[file:../screw_theory.org][Screw Theory]] approach
+to model the kinematics, much like Successive Screws, but using only one frame, doesn't need a convenient frame. Also the metodology is mind opening someway because the authors model the rotations from end-effector to base, and not the opositte, which in my opinion is easier to understand because going from end to base the successive rotations are not carried by the previous rotations.

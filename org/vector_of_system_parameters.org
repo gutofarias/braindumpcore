@@ -1,0 +1,10 @@
+#+TITLE: Vector of System Parameters
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 18:41]
+#+LAST_MODIFIED: [2022-02-18 Fri 18:43]
+#+ROAM_TAGS: 
+
+Extended column vector made by the [[file:vector_of_motion_parameters.org][Vector of Motion Parameters]] on top of the [[file:vector_of_action_parameters.org][Vector of Action Parameters]].
+
+$$\varphi = \begin{bmatrix} \varphi_M \\ \varphi_A \end{bmatrix}$$

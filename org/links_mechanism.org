@@ -1,0 +1,8 @@
+#+TITLE: Links (Mechanism)
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-09 Thu 11:33]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:35]
+#+ROAM_TAGS: 
+
+Individual bodies that compose a [[file:mechanisms.org][mechanism]], are connected one to other by [[file:joints.org][joints]].

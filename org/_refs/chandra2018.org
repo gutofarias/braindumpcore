@@ -1,0 +1,40 @@
+#+TITLE: chandra2018 | Dual-Arm Coordination Using Dual Quaternions and Virtual Mechanisms
+#+CREATED: [2021-09-29 Wed 17:10]
+#+LAST_MODIFIED: [2021-09-29 Wed 19:06]
+#+ROAM_KEY: cite:chandra2018
+#+ROAM_TAGS: 
+
+The work uses what I think can be classified as a [[file:../dual_robots.org][Dual Robot]] but they call a Dual-Arm robot. The authors use DQ to describe and control the coordinated motion of the arms of the robot. 
+In order to do that, the work defines three reference frames and uses [[file:../relative_jacobian.org][Relative Jacobians]]. Also they parametrize the task to be performed by a [[file:../virtual_mechanism.org][Virtual Mechanism]] that conects both arms. It is an interesting idea, since by doing that they can impose restrictions to the robot arms movement by the layout of the virtual mechanism. So by using this, the whole modeling looks like a two [[file:../kinematic_chains.org][chains]] parallel robot.
+
+* Info
+:PROPERTIES:
+:ID: chandra2018
+:DOCUMENT_PATH: ../../../Zotero/storage/WU9EWD5D/Chandra et al. - 2018 - Dual-Arm Coordination Using Dual Quaternions and V.pdf
+:TYPE: Inproceedings
+:AUTHOR: Chandra, R., Mateo, C. M., Corrales-Ramon, Juan Antonio, & Mezouar, Y.
+:YEAR: 2018
+:JOURNAL: 
+:DOI:  http://dx.doi.org/10.1109/ROBIO.2018.8665292
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+A novel approach to the kinematic coordination problem for dual-arm robots and for the definition of bimanual tasks is proposed, where both modelling and control aspects of the problem are handled using dual quaternion representation of pose and screw-based manipulator Jacobian. The proposed formulation is advantageous in terms of computation and storage efficiency compared to other formulations of dual-arm manipulator forward kinematics and Jacobian computation. Unit dual quaternion representation is also capable of avoiding representational singularities related to orientation.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/WU9EWD5D/Chandra et al. - 2018 - Dual-Arm Coordination Using Dual Quaternions and V.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/WU9EWD5D/Chandra et al. - 2018 - Dual-Arm Coordination Using Dual Quaternions and V.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/WU9EWD5D/Chandra et al. - 2018 - Dual-Arm Coordination Using Dual Quaternions and V.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/WU9EWD5D/Chandra et al. - 2018 - Dual-Arm Coordination Using Dual Quaternions and V.pdf-annot-1-0
+:END:
+
+The work uses what I think can be classified as a [[file:../dual_robots.org][Dual Robot]] but they call a Dual-Arm robot. The authors use DQ to describe and control the coordinated motion of the arms of the robot. 
+In order to do that, the work defines three reference frames and uses [[file:../relative_jacobian.org][Relative Jacobians]] which I didn't understand very well (looks like a normal jacobian but maybe the jacobian of a relative motion of two frames).
+Also they parametrize the task to be performed by a [[file:../virtual_mechanism.org][Virtual Mechanism]] that conects both arms. It is an interesting idea, since by doing that they can impose restrictions to the robot arms movement by the layout of the virtual mechanism. So by using this, the whole modeling looks like a two [[file:../kinematic_chains.org][chains]] parallel robot.

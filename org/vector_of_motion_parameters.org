@@ -1,0 +1,8 @@
+#+TITLE: Vector of Motion Parameters
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 11:49]
+#+LAST_MODIFIED: [2022-02-18 Fri 11:56]
+#+ROAM_TAGS: 
+
+A column vector where each element is the [[file:joints.org][Joints]] variable as defined in [[file:twist_of_a_joint.org][Twist of a Joint]].

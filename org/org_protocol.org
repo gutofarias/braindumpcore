@@ -1,0 +1,15 @@
+#+TITLE: org-protocol
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-30 Wed 10:25]
+#+ROAM_TAGS: 
+
+- source :: [[https://orgmode.org/worg/org-contrib/org-protocol.html]]
+[[https://chrome.google.com/webstore/detail/ultimate-org-capture/ijcpiacdhbjjpfookgaodhblgainmcbf][Ultimate Org Capture - Chrome Web Store]]
+
+O org-protocol permite que ações fora do emacs acionem (via [[file:emacsclient.org][emacsclient]]) um chamado pro emacs que será passado pra org.
+
+Por exemplo: salvar um link de um site que esteja visitando por meio do [[file:org_store_link.org][org-store-link]].
+
+O org-protocol vem com três tipos de links [[file:org_protocol_store_link.org][org-protocol-store-link]], [[file:org_protocol_capture.org][org-protocol-capture]] e [[file:org_protocol_open_source.org][org-protocol-open-source]].

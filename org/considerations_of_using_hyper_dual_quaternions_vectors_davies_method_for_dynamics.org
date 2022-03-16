@@ -1,0 +1,18 @@
+#+TITLE: Considerations of using Hyper-Dual Quaternions/Vectors - Davies Method for Dynamics
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 12:50]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:09]
+#+ROAM_TAGS: 
+
+[[file:hyper_dual_quaternions.org][Hyper-Dual Quaternions]] | [[file:hyper_dual_vectors.org][Hyper-Dual Vectors]]
+
+The kinematics using Davies Method is computed for the velocity. But dynamics needs acceleration. In order to obtain that we will use [[file:hyper_dual_numbers.org][hyper-dual quantities]].
+
+For example, when describing a dual veclocity as a dual vector, we have:
+
+$$ \nu = \omega + \epsilon \, v $$
+
+This has the information of the angular velocity and linear velociy. We extend that using the property of [[file:automatic_differentiation.org][Automatic Differentiation]] to:
+
+$$ \check{\nu} = (\omega + \epsilon \, v) + \check{\epsilon} \, (\dot{\omega} + \epsilon \, \dot{v}) = \nu + \check{\epsilon} \, \dot{\nu} $$

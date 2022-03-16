@@ -1,0 +1,10 @@
+#+TITLE: Dual Euler Angles
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-08 Thu 11:28]
+#+LAST_MODIFIED: [2021-07-08 Thu 11:30]
+#+ROAM_TAGS: 
+
+Extension for [[file:euler_angles.org][Euler Angles]] that treats both position and orientation simultaneously.
+
+Idea I had. Dont know if some one has already thought of it.

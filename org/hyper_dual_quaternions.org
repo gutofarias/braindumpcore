@@ -1,0 +1,10 @@
+#+TITLE: Hyper-Dual Quaternions
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-06 Tue 11:45]
+#+LAST_MODIFIED: [2021-09-06 Mon 19:12]
+#+ROAM_TAGS: 
+
+It is a [[file:quaternion.org][Quaternion]] in which its components are [[file:hyper_dual_numbers.org][Hyper-Dual Numbers]]
+
+Can be used to compute the pose and its derivative from at the same quaternion structure, using the [[file:automatic_differentiation.org][Automatic Differentiation]] property. 

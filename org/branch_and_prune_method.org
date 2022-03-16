@@ -1,0 +1,8 @@
+#+TITLE: Branch-And-Prune Method
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-09 Thu 11:23]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:23]
+#+ROAM_TAGS: 
+
+

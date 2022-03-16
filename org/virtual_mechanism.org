@@ -1,0 +1,9 @@
+#+TITLE: Virtual Mechanism
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-29 Wed 18:42]
+#+LAST_MODIFIED: [2021-09-29 Wed 19:04]
+#+ROAM_TAGS: 
+
+Is as the name says, a mechanism that is virtual. A virtual mechanism is sometimes added to a problem to connect to the [[file:end_link.org][end-effector]] of a [[file:serial_mechanism.org][serial robot]] matematically transformating it in a [[file:parallel_mechanisms.org][parallel robot]]. Or, in the case of cite:chandra2018 it is used to represent the body that the robot operates on, and by designing differents joints to this body we can restrict the movement of the body (it is another way to define the [[file:task_space.org][task space]]).
+

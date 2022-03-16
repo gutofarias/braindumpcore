@@ -1,0 +1,8 @@
+#+TITLE: org-protocol-store-link
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-30 Wed 10:13]
+#+LAST_MODIFIED: [2021-06-30 Wed 10:16]
+#+ROAM_TAGS: 
+
+Usado por meio do protocolo "store-link", ele salva um org-link como se tivesse usado [[file:org_store_link.org][org-store-link]] e guarda o link no kill-ring.

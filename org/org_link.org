@@ -1,0 +1,7 @@
+#+TITLE: org-link
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:05]
+#+ROAM_TAGS: 
+

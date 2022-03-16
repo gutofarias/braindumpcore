@@ -1,0 +1,37 @@
+#+TITLE: jianguo2017 | Nonrigidly Foldability Analysis of Kresling Cylindrical Origami
+#+CREATED: [2021-10-20 Wed 11:35]
+#+LAST_MODIFIED: [2021-10-21 Thu 09:51]
+#+ROAM_KEY: cite:jianguo2017
+#+ROAM_TAGS: 
+
+The paper studies the rigid foldability of a cylindrical origami with Kresling patterns concluding that it is not rigidly foldable. DQs are used in the method that analyses the ridid foldability.
+
+* Info
+:PROPERTIES:
+:ID: jianguo2017
+:DOCUMENT_PATH: ../../../Zotero/storage/YH5VU8VU/Jianguo et al. - 2017 - Nonrigidly Foldability Analysis of Kresling Cylind.pdf
+:TYPE: Article
+:AUTHOR: Jianguo, C., Yangqing, L., Ruijun, M., Jian, F., & Ya, Z.
+:YEAR: 2017
+:JOURNAL: Journal of Mechanisms and Robotics
+:DOI:  http://dx.doi.org/10.1115/1.4036738
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+Rigid origami is seen as a fundamental model in many self-folding machines. A key issue in designing origami is the rigid/non-rigid foldability. The kinematic and foldability of Kresling origami, which is based on an origami pattern of the vertex with six creases, are studied in this paper. The movement of the singlevertex is firstly discussed. Based on the quaternion method, the loop-closure equation of the vertex with six creases is obtained. Then the multi-transformable behavior of the single vertex is investigated. Furthermore, the rigid foldability of origami patterns with multi-vertex are investigated with an improved dual quaternion method, which is based on studying the folding angle and the coordinates of all vertices. It can be found that the Kresling cylinder is not rigidly foldable.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/YH5VU8VU/Jianguo et al. - 2017 - Nonrigidly Foldability Analysis of Kresling Cylind.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/YH5VU8VU/Jianguo et al. - 2017 - Nonrigidly Foldability Analysis of Kresling Cylind.pdf::8]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/YH5VU8VU/Jianguo et al. - 2017 - Nonrigidly Foldability Analysis of Kresling Cylind.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/YH5VU8VU/Jianguo et al. - 2017 - Nonrigidly Foldability Analysis of Kresling Cylind.pdf-annot-1-0
+:END:
+
+The paper studies the rigid foldability of a cylindrical origami with Kresling patterns concluding that it is not rigidly foldable. DQs are used in the method that analyses the ridid foldability.

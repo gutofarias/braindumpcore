@@ -1,0 +1,11 @@
+#+TITLE: elm-charts
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-27 Tue 15:56]
+#+LAST_MODIFIED: [2021-07-27 Tue 16:00]
+#+ROAM_TAGS: 
+
+- tags :: [[file:elm.org][Elm]]
+- source :: https://elm-charts.org/
+  
+Pacote sensacional pra se fazer gráficos usando o Elm e renderizando em SVG.

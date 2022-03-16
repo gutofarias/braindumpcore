@@ -1,0 +1,9 @@
+#+TITLE: Graph Node
+#+ROAM_ALIAS: "Graph Vertice"
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 12:28]
+#+LAST_MODIFIED: [2022-02-17 Thu 12:54]
+#+ROAM_TAGS: 
+
+The points where the [[file:graph_edge.org][edges]] start and end. 

@@ -1,0 +1,8 @@
+#+TITLE: Automatic Differentiation
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-06 Mon 19:02]
+#+LAST_MODIFIED: [2021-09-06 Mon 19:04]
+#+ROAM_TAGS: 
+
+Property of [[file:dual_numbers.org][Dual Numbers]] that if the dual part of the number is the derivative of the real part, it will remain so after algebraic manipulations like sum, product, division, etc.

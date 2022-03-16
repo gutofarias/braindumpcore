@@ -1,0 +1,24 @@
+#+TITLE: cohen_application_2015 | Application of Hyper-Dual Numbers to Multibody Kinematics
+#+CREATED: [2022-03-09 Wed 13:37]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:37]
+#+ROAM_KEY: cite:cohen_application_2015
+#+ROAM_TAGS: 
+
+* Info
+:PROPERTIES:
+:ID: cohen_application_2015
+:DOCUMENT_PATH: ../../../Zotero/storage/9JDXUPHV/Cohen e Shoham - 2015 - Application of Hyper-Dual Numbers to Multibody Kin.pdf
+:TYPE: Article
+:AUTHOR: Cohen, A., & Shoham, M.
+:YEAR: 2015
+:JOURNAL: Journal of Mechanisms and Robotics
+:DOI:  http://dx.doi.org/10.1115/1.4030588
+:URL: ---
+:KEYWORDS: lido1
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/9JDXUPHV/Cohen e Shoham - 2015 - Application of Hyper-Dual Numbers to Multibody Kin.pdf
+:END:

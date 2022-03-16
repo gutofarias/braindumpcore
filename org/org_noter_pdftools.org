@@ -1,0 +1,14 @@
+#+TITLE: org-noter-pdftools
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:13]
+#+ROAM_TAGS: 
+
+- source :: [[https://github.com/fuxialexander/org-pdftools]]
+
+Está no mesmo site do [[file:org_pdftools.org][org-pdftools]]
+
+Add integration between org-pdftools and org-noter.
+
+O org-noter-pdftools faz o [[file:org_noter.org][org-noter]] no lugar de usar os links próprios, usar os links do [[file:org_pdftools.org][org-pdftools]]. 

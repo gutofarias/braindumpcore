@@ -1,0 +1,10 @@
+#+TITLE: Deft
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:08]
+#+ROAM_TAGS: 
+
+- sources :: [[https://github.com/jrblevin/deft]], [[https://jblevins.org/projects/deft/]]
+
+Ferramenta que permite pesquisar as notas de uma pasta (escolhi a pasta do org-roam) de forma fuzzy. A pesquisa inclui nome, path e conteúdo.

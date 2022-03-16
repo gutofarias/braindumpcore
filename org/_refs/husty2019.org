@@ -1,0 +1,36 @@
+#+TITLE: husty2019 | An algebraic parameterization approach for parallel robots analysis
+#+CREATED: [2021-08-31 Tue 18:24]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:21]
+#+ROAM_KEY: cite:husty2019
+#+ROAM_TAGS: 
+
+- tags :: [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]] 
+
+The authors proposes a new method to parametrize [[file:../parallel_mechanisms.org][parallel mechanisms]] using [[file:../study_parameters.org][Study parameters]], applying it in a mechanism to help in the lower limb rehabilitation process of post-stroke patients.
+
+* Info
+:PROPERTIES:
+:ID: husty2019
+:DOCUMENT_PATH: ../../../Zotero/storage/YF9ZDVPA/Husty et al. - 2019 - An algebraic parameterization approach for paralle.pdf
+:TYPE: Article
+:AUTHOR: Husty, M., Birlescu, I., Tucan, P., Vaida, C., & Pisla, D.
+:YEAR: 2019
+:JOURNAL: Mechanism and Machine Theory
+:DOI:  http://dx.doi.org/10.1016/j.mechmachtheory.2019.05.024
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/YF9ZDVPA/Husty et al. - 2019 - An algebraic parameterization approach for paralle.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/YF9ZDVPA/Husty et al. - 2019 - An algebraic parameterization approach for paralle.pdf::1]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/YF9ZDVPA/Husty et al. - 2019 - An algebraic parameterization approach for paralle.pdf::1++0.00;;annot-1-27]]
+:ID:       ../../../Zotero/storage/YF9ZDVPA/Husty et al. - 2019 - An algebraic parameterization approach for paralle.pdf-annot-1-27
+:END:
+
+The authors proposes a new method to parametrize parallel mechanisms using Study parameters, applying it in a mechanism to help in the lower limb rehabilitation process of post-stroke patients.

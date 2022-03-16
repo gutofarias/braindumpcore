@@ -1,0 +1,43 @@
+#+TITLE: chandra2020 | Resolved-Acceleration Control of Serial Robotic Manipulators Using Unit Dual Quaternions
+#+CREATED: [2021-09-16 Thu 18:44]
+#+LAST_MODIFIED: [2021-09-17 Fri 16:56]
+#+ROAM_KEY: cite:chandra2020
+#+ROAM_TAGS: 
+
+The authors propose a new controller using [[file:../resolved_acceleration_control.org][Resolved-Acceleration Control]] (looks like a [[file:../feedback_linearization.org][feedback linearization]]) for the trajectory tracking of serial robotic manipulators using dual quaternions and based on screw theory.
+The controller is compared to a uncoupled controller (which separates translation and orientation) getting similar results, actually performed worse on position but better on orientation.
+
+Cita bastante cite:ozgur2016 e também três trabalhos de Featherstone que seriam importantes de se ler pois embasam o uso de vetores em 6d e uma separação entre acelaração convencional e aceleração espacial (a espacial seria a derivada da velocidade dual)
+
+* Info
+:PROPERTIES:
+:ID: chandra2020
+:DOCUMENT_PATH: ../../../Zotero/storage/LW2EMRSF/Chandra et al. - 2020 - Resolved-Acceleration Control of Serial Robotic Ma.pdf
+:TYPE: Article
+:AUTHOR: Chandra, R., Corrales-Ramon, Juan Antonio, & Mezouar, Y.
+:YEAR: 2020
+:JOURNAL: IFAC-PapersOnLine
+:DOI:  http://dx.doi.org/10.1016/j.ifacol.2020.12.1425
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/LW2EMRSF/Chandra et al. - 2020 - Resolved-Acceleration Control of Serial Robotic Ma.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/LW2EMRSF/Chandra et al. - 2020 - Resolved-Acceleration Control of Serial Robotic Ma.pdf::5]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/LW2EMRSF/Chandra et al. - 2020 - Resolved-Acceleration Control of Serial Robotic Ma.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/LW2EMRSF/Chandra et al. - 2020 - Resolved-Acceleration Control of Serial Robotic Ma.pdf-annot-1-0
+:END:
+
+The authors propose a new controller using [[file:../resolved_acceleration_control.org][Resolved-Acceleration Control]] (looks like a [[file:../feedback_linearization.org][feedback linearization]]) for the trajectory tracking of serial robotic manipulators using dual quaternions and based on screw theory.
+The controller is compared to a uncoupled controller (which separates translation and orientation) getting similar results, actually performed worse on position but better on orientation.
+
+Cita bastante cite:ozgur2016 e também três trabalhos de Featherstone que seriam importantes de se ler pois embasam o uso de vetores em 6d e uma separação entre acelaração convencional e aceleração espacial (a espacial seria a derivada da velocidade dual)
+
+[[file:../task_space.org][Task Space]] [[file:../joint_space.org][Joint Space]]

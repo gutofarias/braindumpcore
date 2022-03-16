@@ -1,0 +1,9 @@
+#+TITLE: Task Space
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-17 Fri 11:46]
+#+LAST_MODIFIED: [2021-09-17 Fri 16:45]
+#+ROAM_TAGS: 
+
+Is the space (in a vector space sense) of the task, represented as the position and orientation of the [[file:end_link.org][End Effector]].
+

@@ -1,0 +1,12 @@
+#+TITLE: org-pdftools
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:12]
+#+ROAM_TAGS: 
+
+- source :: [[https://github.com/fuxialexander/org-pdftools]]
+
+Add support for org links from pdftools buffers with more precise location control.
+
+O org-pdftools adiciona links pra pdfs no formato [[file:org_link.org][org-link]]. São links bem complexos que podem ser pra página, posição na página, anotações, buscas no pdf, etc.

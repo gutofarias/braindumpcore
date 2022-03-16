@@ -1,0 +1,11 @@
+#+TITLE: Dual Angles
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-06 Mon 19:10]
+#+LAST_MODIFIED: [2021-09-06 Mon 19:12]
+#+ROAM_TAGS: 
+
+Are an extension of angles to a dual number. Dual angles can encompass a rotation and a translation.
+So it can represent a line transformation like rotate around an axis an translating along the same axis.
+
+

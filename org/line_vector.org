@@ -1,0 +1,8 @@
+#+TITLE: Line Vector
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-29 Wed 11:10]
+#+LAST_MODIFIED: [2021-09-29 Wed 11:23]
+#+ROAM_TAGS: 
+
+Uma grandeza chamada de vetor linha dentro do contexto de [[file:screw_theory.org][Screw Theory]] é uma grandeza que possui sua aplicação definida por um eixo, como a velocidade angular de um corpo, em que o corpo gira em relação a um eixo e a velocidade linear como efeito dessa rotação aumenta conforme a distância em relação ao eixo. De forma análoga temos a força que possui uma linha de ação e gera momento. Em termos de quaternios duais, essa grandeza fica sempre na [[file:real_part.org][parte real]].

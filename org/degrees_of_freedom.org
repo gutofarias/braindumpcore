@@ -1,0 +1,11 @@
+#+TITLE: Degrees of Freedom
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 14:47]
+#+LAST_MODIFIED: [2022-02-17 Thu 14:57]
+#+ROAM_TAGS: 
+
+Refers to the freedom of motion of a system or [[file:joints.org][joint]]. It is usually described as a subset from the allowed motions of a freebody in space, being it 3 independent translations and 3 independent rotations.
+When dealing with a system in the plane we consider only 3 allowed motions, 2 independent translations and 1 rotation.
+
+When talking about a joint, it may allow a relative motion between the two or more conected [[file:links_mechanism.org][links]]. The allowed relative motions are the degrees of freedom of the joint. 

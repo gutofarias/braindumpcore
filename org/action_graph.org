@@ -1,0 +1,15 @@
+#+TITLE: Action Graph
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 12:30]
+#+LAST_MODIFIED: [2022-02-18 Fri 16:21]
+#+ROAM_TAGS: 
+
+Start with the [[file:tree_graph.org][Tree Graph]] with the [[file:strings_in_a_tree_graph.org][strings]] included as dashed [[file:graph_edge.org][edges]]. Replace each edge by c_i edges in *parallel*, one for each [[file:constraints_of_motion.org][Constraints of Motion]] of the relative joint.
+The replaced edges carry a [[file:wrench.org][wrench]] related to the constraint it adds.
+
+If the original edge was a [[file:branches_in_a_tree_graph.org][branch]], only one parallel edge remains a branch, all the others become strings. If the original edge was a string, all the parallel edges become strings.
+
+External forces and moments should be added as [[file:strings_in_a_tree_graph.org][strings]] going from the [[file:base_link.org][support link]]  to the link where the force/moment is being applied. 
+
+The wrenchs can be constructed by [[file:wrench_of_a_joint.org][Wrench of a Joint]], but at the action graph they should be only refered by a symbol.

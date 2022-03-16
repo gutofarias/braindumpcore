@@ -1,0 +1,35 @@
+#+TITLE: zhao2017 | Path smoothing for five-axis machine tools using dual quaternion approximation with dominant points
+#+CREATED: [2021-10-18 Mon 10:44]
+#+LAST_MODIFIED: [2021-10-19 Tue 10:38]
+#+ROAM_KEY: cite:zhao2017
+#+ROAM_TAGS: 
+
+The paper proposes a dual quaternion B-Spline approximation method for using in five-axis CNC machines. The advantages of the method are: reduced computation time, reduced storage consuption, reduced number of control points. Also using the dual quaternionic method can eliminate the fitting oscillatory and solve the parameter synchronization problem simultaneously (no idea what this two mean).
+
+* Info
+:PROPERTIES:
+:ID: zhao2017
+:DOCUMENT_PATH: ../../../Zotero/storage/A9UAKF49/Zhao et al. - 2017 - Path smoothing for five-axis machine tools using d.pdf
+:TYPE: Article
+:AUTHOR: Zhao, X., Zhao, H., Li, X., & Ding, H.
+:YEAR: 2017
+:JOURNAL: Int. J. Precis. Eng. Manuf.
+:DOI:  http://dx.doi.org/10.1007/s12541-017-0085-5
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/A9UAKF49/Zhao et al. - 2017 - Path smoothing for five-axis machine tools using d.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/A9UAKF49/Zhao et al. - 2017 - Path smoothing for five-axis machine tools using d.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/A9UAKF49/Zhao et al. - 2017 - Path smoothing for five-axis machine tools using d.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/A9UAKF49/Zhao et al. - 2017 - Path smoothing for five-axis machine tools using d.pdf-annot-1-0
+:END:
+
+The paper proposes a dual quaternion B-Spline approximation method for using in five-axis CNC machines. The advantages of the method are: reduced computation time, reduced storage consuption, reduced number of control points. Also using the dual quaternionic method can eliminate the fitting oscillatory and solve the parameter synchronization problem simultaneously (no idea what this two mean).

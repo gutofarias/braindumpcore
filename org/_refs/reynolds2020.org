@@ -1,0 +1,36 @@
+#+TITLE: reynolds2020 | Dual Quaternion-Based Powered Descent Guidance with State-Triggered Constraints
+#+CREATED: [2021-09-13 Mon 17:12]
+#+LAST_MODIFIED: [2021-09-13 Mon 17:34]
+#+ROAM_KEY: cite:reynolds2020
+#+ROAM_TAGS: 
+
+I did not read the whole thing. It uses dual quaternions in the [[file:../powered_descent_guidance.org][powered descent guidance]] problem. The article uses several restrictions in the control formulation, it uses a [[file:../line_of_sight_restriction.org][line-of-sight]] restriction (a new type they call slant-range-triggered line-of-sight), also a restriction as a window for the allowed values of the control effort (propulsion power). The control problem is solved through a nonconvex optimization problem.
+
+* Info
+:PROPERTIES:
+:ID: reynolds2020
+:DOCUMENT_PATH: ../../../Zotero/storage/W8R4L27L/Reynolds et al. - 2020 - Dual Quaternion-Based Powered Descent Guidance wit.pdf
+:TYPE: Article
+:AUTHOR: Reynolds, T. P., Szmuk, M., Malyuta, D., Mesbahi, M., A\c c\ikme\c se, Beh\c cet, & Carson, J. M.
+:YEAR: 2020
+:JOURNAL: Journal of Guidance, Control, and Dynamics
+:DOI:  http://dx.doi.org/10.2514/1.G004536
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/W8R4L27L/Reynolds et al. - 2020 - Dual Quaternion-Based Powered Descent Guidance wit.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/W8R4L27L/Reynolds et al. - 2020 - Dual Quaternion-Based Powered Descent Guidance wit.pdf::15]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/W8R4L27L/Reynolds et al. - 2020 - Dual Quaternion-Based Powered Descent Guidance wit.pdf::1++0.00;;annot-1-12]]
+:ID:       ../../../Zotero/storage/W8R4L27L/Reynolds et al. - 2020 - Dual Quaternion-Based Powered Descent Guidance wit.pdf-annot-1-12
+:END:
+
+Não cheguei a ler todo. Mas é mais um que usa quatérnios duais na área de aeroespacial e nesse caso no problema de descida motorizada, onde por exemplo a aeronave tem que pousar na lua (caso desse artigo). 
+Esse artigo adiciona várias restrições como line-of-sight (um novo tipo que eles chamam de slant-range-triggered line-of-sight), restrição no controlador por uma janela aceitável de controle.
+O problema de controle foi resolvido por meio de uma otimização não convexa.

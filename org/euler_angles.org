@@ -1,0 +1,8 @@
+#+TITLE: Euler Angles
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-08 Thu 11:29]
+#+LAST_MODIFIED: [2021-07-08 Thu 11:29]
+#+ROAM_TAGS: 
+
+

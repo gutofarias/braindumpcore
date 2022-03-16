@@ -1,0 +1,36 @@
+#+TITLE: shabani2021 | A branch-and-prune method to solve closure equations in dual quaternions
+#+CREATED: [2021-09-08 Wed 18:23]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:50]
+#+ROAM_KEY: cite:shabani2021
+#+ROAM_TAGS: 
+
+- tags :: [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]] 
+
+The authors uses dual quaternions to formulate [[file:../closure_loop_equations.org][closure loop equations]] as a system of [[file:../multiaffine_equations.org][multiaffine equations]], they then introduce a new [[file:../branch_and_prune_method.org][branch-and-prune method]] tailored to this type of equations to solve the system which can reduce computing time up to 2 orders of magnitude compared to traditional approaches.
+
+* Info
+:PROPERTIES:
+:ID: shabani2021
+:DOCUMENT_PATH: ../../../Zotero/storage/6NISCAKU/Shabani et al. - 2021 - A branch-and-prune method to solve closure equatio.pdf
+:TYPE: Article
+:AUTHOR: Shabani, A., Porta, J. M., & Thomas, F.
+:YEAR: 2021
+:JOURNAL: Mechanism and Machine Theory
+:DOI:  http://dx.doi.org/10.1016/j.mechmachtheory.2021.104424
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/6NISCAKU/Shabani et al. - 2021 - A branch-and-prune method to solve closure equatio.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/6NISCAKU/Shabani et al. - 2021 - A branch-and-prune method to solve closure equatio.pdf::1]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/6NISCAKU/Shabani et al. - 2021 - A branch-and-prune method to solve closure equatio.pdf::1++0.00;;annot-1-19]]
+:ID:       ../../../Zotero/storage/6NISCAKU/Shabani et al. - 2021 - A branch-and-prune method to solve closure equatio.pdf-annot-1-19
+:END:
+
+O autor resolve equações de fechamento de loops cinemáticos de uma forma mais eficiente usando quatérnios duais. Ele escreve as equações como um sistema de equações /multiaffine/ e usa um método /branch-and-prune/ para resolver o sistema de equações. Consegue obter resoluções duas ordens de magnitude mais rápido do que as tradicionais, para problemas específicos.

@@ -1,0 +1,10 @@
+#+TITLE: Constraints of Motion
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 14:52]
+#+LAST_MODIFIED: [2022-02-17 Thu 14:56]
+#+ROAM_TAGS: 
+
+When we analise a system or a [[file:joints.org][joint]], it has an allowed motion, which are the [[file:degrees_of_freedom.org][degrees of freedom]]. The motion that is not allowed is then constrained. For each translation motion constrained there should be a force and for each rotation motion constrained there should be a torque/moment. 
+
+

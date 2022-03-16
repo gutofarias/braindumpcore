@@ -1,0 +1,10 @@
+#+TITLE: Direct Twists Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 11:35]
+#+LAST_MODIFIED: [2022-02-18 Fri 17:12]
+#+ROAM_TAGS: 
+
+Matrix created by arranging each respective [[file:twist.org][twist]] (read the OBS) in a column, following the order of columns of the [[file:circuits_matrix.org][Circuits Matrix]].
+
+OBS.: Actually it uses not the whole twist, just the [[file:screw.org][screw]] associated with the twist.

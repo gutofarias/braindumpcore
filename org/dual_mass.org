@@ -1,0 +1,16 @@
+#+TITLE: Dual Mass
+#+ROAM_ALIAS: "Dual Inertia"
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-14 Wed 10:24]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:46]
+#+ROAM_TAGS: 
+
+cite:brodsky_dual_1994 criou.
+
+$$ M_i = {_I}I_{i} \, \epsilon + m_{i} \, d\epsilon $$
+
+Where:
+$\epsilon$ is the [[file:dual_operator.org][Dual Operator]] and $d\epsilon$ is the [[file:dual_derivative_operator.org][Dual Derivative Operator]].
+
+Note that the dual mass also work like a [[file:dual_swap_operator.org][Dual Swap Operator]].

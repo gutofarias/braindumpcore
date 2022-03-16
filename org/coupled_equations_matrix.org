@@ -1,0 +1,10 @@
+#+TITLE: Coupled Equations Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 18:43]
+#+LAST_MODIFIED: [2022-02-18 Fri 18:47]
+#+ROAM_TAGS: 
+
+Matrix in which each column uses the [[file:vector_of_system_parameters.org][Vector of System Parameters]] as reference and each row is given by one coupled equation between Kinematics and Statics.
+Usually this equation is in the form of a viscous friction.
+The equations should be in the form $something = 0$.

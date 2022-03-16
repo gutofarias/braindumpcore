@@ -1,0 +1,8 @@
+#+TITLE: Tree Graph
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 12:52]
+#+LAST_MODIFIED: [2022-02-17 Thu 12:54]
+#+ROAM_TAGS: 
+
+A tree is a kind of [[file:graph.org][Graph]] in which any two [[file:graph_node.org][vertices]] are connected by exactly one path.

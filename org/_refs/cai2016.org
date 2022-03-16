@@ -1,0 +1,37 @@
+#+TITLE: cai2016 | The Foldability of Cylindrical Foldable Structures Based on Rigid Origami
+#+CREATED: [2021-10-21 Thu 09:14]
+#+LAST_MODIFIED: [2021-10-21 Thu 09:37]
+#+ROAM_KEY: cite:cai2016
+#+ROAM_TAGS: 
+
+The authors develop a method to check for the rigid foldability of multi-vertex cylindrical origami using dual quaternions. It's a multi step method, one of the steps uses quaternions and the other uses dual quaternions.
+
+* Info
+:PROPERTIES:
+:ID: cai2016
+:DOCUMENT_PATH: ../../../Zotero/storage/GQZ2LRM7/Cai et al. - 2016 - The Foldability of Cylindrical Foldable Structures.pdf
+:TYPE: Article
+:AUTHOR: Cai, J., Zhang, Y., Xu, Y., Zhou, Y., & Feng, J.
+:YEAR: 2016
+:JOURNAL: Journal of Mechanical Design
+:DOI:  http://dx.doi.org/10.1115/1.4032194
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+Foldable structures, a new kind of space structures developed in recent decades, can be deployed gradually to a working configuration, and also can be folded for transportation, thus have potentially broad application prospects in the fields of human life, military, aerospace, building structures and so on. Combined with the technology of origami folding, foldable structures derive more diversified models, and the foldable structures in cylindrical shape are mainly studied in this paper. Some researchers use the theory of quaternion representing spatial fixed-point rotation and construct the rotating vector model to obtain the quaternion rotation sequence method (QRS method) analyzing origami, but the method is very limited and not suitable for the cylindrical foldable structures. In order to solve the problem, a new method is developed, which combines the QRS method and the dual quaternion method. After analyzing the folding angle via the QRS method for multi-vertex crease system and calculating the coordinates of all vertices via the dual quaternion, the rigid foldability can be checked. Finally, two examples are carried out to confirm validity and versatility of the method.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/GQZ2LRM7/Cai et al. - 2016 - The Foldability of Cylindrical Foldable Structures.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/GQZ2LRM7/Cai et al. - 2016 - The Foldability of Cylindrical Foldable Structures.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/GQZ2LRM7/Cai et al. - 2016 - The Foldability of Cylindrical Foldable Structures.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/GQZ2LRM7/Cai et al. - 2016 - The Foldability of Cylindrical Foldable Structures.pdf-annot-1-0
+:END:
+
+The authors develop a method to check for the rigid foldability of multi-vertex cylindrical origami using dual quaternions. It's a multi step method, one of the steps uses quaternions and the other uses dual quaternions.

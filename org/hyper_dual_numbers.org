@@ -1,0 +1,12 @@
+#+TITLE: Hyper-Dual Numbers
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-06 Mon 19:00]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:41]
+#+ROAM_TAGS: 
+
+cite:cohen_application_2015 criou eu acho.
+
+Extension of [[file:dual_numbers.org][Dual Numbers]] to a higher order using other dual operators.
+
+

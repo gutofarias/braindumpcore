@@ -1,0 +1,8 @@
+#+TITLE: Successive Screws
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-22 Wed 11:55]
+#+LAST_MODIFIED: [2021-09-22 Wed 11:56]
+#+ROAM_TAGS: 
+
+[[file:convenient_frame.org][Convenient Frame]]

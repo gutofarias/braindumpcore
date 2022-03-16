@@ -1,0 +1,8 @@
+#+TITLE: Newton-Euler Method
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-29 Wed 11:47]
+#+LAST_MODIFIED: [2021-09-29 Wed 11:47]
+#+ROAM_TAGS: 
+
+

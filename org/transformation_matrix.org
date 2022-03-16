@@ -1,0 +1,9 @@
+#+TITLE: Transformation Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-07 Wed 10:38]
+#+LAST_MODIFIED: [2021-07-07 Wed 10:46]
+#+ROAM_ALIAS: "Matriz de Transformação"
+#+ROAM_TAGS: 
+
+

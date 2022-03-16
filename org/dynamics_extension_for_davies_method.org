@@ -1,0 +1,220 @@
+#+TITLE: Dynamics Extension for Davies Method
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-06 Tue 11:32]
+#+LAST_MODIFIED: [2022-03-09 Wed 17:51]
+#+ROAM_TAGS: ideas
+
+Idea I had for extending [[file:davies_method.org][Davies Method]] which works only for Differential Kinematics and Statics. I wish to extend the formulation to include Dynamics.
+
+My idea is to go through [[file:hyper_dual_quaternions.org][Hyper-Dual Quaternions]]. But I should take a look at [[file:screw_calculus.org][Screw Calculus]] as well.
+
+Start with a mechanism or robot (can be either a [[file:serial_mechanism.org][Open Kinematic Chain System]] or a [[file:closed_kinematic_chain_system.org][Closed Kinematic Chain System]])
+
+* Enumerate the joints and links
+Use letters for the joints and numbers for the links. The earth or [[file:base_link.org][support]] should be number 0 or 1 (when there is no 0).
+
+* Build the [[file:coupling_graph.org][Coupling Graph]] 
+
+* Evalute the [[file:degrees_of_freedom.org][degrees of freedom]] (f) and [[file:constraints_of_motion.org][constraints]] (c) of each joint.
+
+* Considerations
+
+** [[file:joints_taken_in_succession_davies_method_for_dynamics.org][Joints taken in succession - Davies Method for Dynamics]]
+
+* Kinematic Analysis
+
+** [[file:understanding_davies_method_s_kinematic_analysis.org][Understanding Davies Method's kinematic analysis]]
+
+** [[file:difference_of_the_approach_to_dynamics_on_the_kinematic_analysis_davies_method_for_dynamics.org][Difference of the approach to Dynamics]]
+
+** Build the [[file:motion_graph.org][Motion Graph]]
+
+In this case the motion graph does not need to take into account the [[file:tree_graph.org][tree]] configuration. 
+
+** For each link
+
+*** Choose a graph trajectory
+
+The graph trajectory should go from the [[file:base_link.org][Base Link]] to the link in consideration.
+
+*** [[file:considerations_of_using_hyper_dual_quaternions_vectors_davies_method_for_dynamics.org][Considerations of using Hyper-Dual Quaternions/Vectors]]
+
+
+*** Define the [[file:hyper_dual_twist.org][Hyper-Dual Twist]] of the [[file:graph_edge.org][edges]] using [[file:dual_twist_of_a_joint.org][Hyper-Dual Twist of a Joint]]. Compute the twists relative to the center of mass of the link
+
+Remember you only need the twist of previous joints. 
+
+*** Sum up the hyper-dual twists to obtain the kinematics of the center of mass of the link
+
+
+* Forces Analysis
+
+** [[file:understanding_davies_method_s_statics_analysis.org][Understanding Davies Method's statics analysis]]
+
+** [[file:difference_of_the_approach_to_dynamics_in_force_analysins_davies_method_for_dynamics.org][Difference of the approach to Dynamics in Force Analysins - Davies Method for Dynamics]]
+
+
+** Build the [[file:action_graph.org][Action Graph]]
+In this case the motion graph does not need to take into account the [[file:tree_graph.org][tree]] configuration. 
+
+** For each link (using the same sequence of the kinematic analysis)
+
+*** Make a "circular cut" in the equivalent graph node to account for the efforts acting in the link.
+The efforts cutted by the circular cut will be considered. Positiviness should be either arrows pointing in the circular cut or arrows pointing out.
+
+*** Define the [[file:wrench.org][wrenches]] of the edges by [[file:wrench_of_a_joint.org][Wrench of a Joint]].
+
+We do not need to use hyper-dual quatities because we do not want the derivative or integral of the forces.
+
+$$\hat{F}_{ij} = \vec{F}_{ij} + \epsilon \, \vec{M}_{ij} $$
+
+*** Sum up all the wrenches to find the efforts acting in the link
+
+$$ \hat{F}_i = \sum_j \hat{F}_{ij} $$
+
+** Build the Action Network Matrix (A_N) and the Vector of Action Parameters ($\varphi_A$)
+
+Just write the half-equations obtained for the force analysis in a matricial form putting toghether all the half-equations and separating the Vector of Motion Parameters.
+
+Do not change the order of equations.
+
+* Hyper-dual momentum
+
+** For each link
+
+*** Build the [[file:dual_mass.org][Dual Mass]] of each link as
+
+$$ M_i = {_I}I_{i} \, \epsilon + m_{i} \, d\epsilon $$
+
+Perceba que a utilização dos operadores $\epsilon$ e $d\epsilon$ em conjunto fazem um [[file:dual_swap_operator.org][swap]] na velocidade linear e angular. O resultado fica:
+
+
+$$ M_i \, \nu_i = m_i \, \vec{v} + \epsilon \, {_I}I_{i} \, \vec{\omega} $$
+
+O que deixa compatível com o wrench que é $(\vec{F} + \epsilon \, \vec{M})$
+
+*** Build the [[file:hyper_dual_mass.org][Hyper-Dual Mass]] of each link as
+
+$$ \check{M}_i = M_i + \check{\epsilon} \, \dot{M}_i $$
+
+$$ \check{M}_i = {_I}I_{i} \, \epsilon + m_{i} \, d\epsilon + \check{\epsilon} \,  ({_I}\dot{I}_{i} \, \epsilon ) $$
+
+*** [[file:considerations_over_the_inertia_matrix_davies_method_for_dynamics.org][Considerations over the inertia matrix - Davies Method for Dynamics]]
+
+*** Find the Hyper-Dual Momentum of each link
+
+$$ \check{P}_i = \check{M}_i \, \check{\nu}_i $$
+
+$$ \check{P} = (M + \check{\epsilon} \, \dot{M})(\nu + \check{\epsilon} \, \dot{\nu}) = M \, \nu + \check{\epsilon} ( M \, \dot{\nu} + \dot{M} \, \nu ) $$
+
+*** Isolate the Hyper-Dual part, which is the acceleration
+
+$$ \dot{\hat{P}} = d\check{\epsilon} \, (\check{P}) =  M \, \dot{\nu} + \dot{M} \, \nu $$
+
+
+** Build the Motion Network Matrix ($M_N$), the Vector of Motion Parameters ($\varphi_M$) and the Vector of Independent Terms ($b_M$)
+
+Just write the half-equations obtained for the momenta in a matricial form putting toghether all the half-equations and separating the Vector of Motion Parameters (the accelerations).
+The terms that do not contain an explicit second order differential joint variable, should be placed in the Vector of Independent Terms $b_M$.
+
+The result should be:
+
+$$ M_N \, \varphi_M + b_M $$
+
+Do not change the order of equations.
+
+* Apply Newton's Law and Euler's Law of motion
+
+A dual version of Newton's law should be:
+
+$$ \hat{F}_i = \dot{\hat{P}}_i = \frac{d}{dt} [M_i \, \nu_i]  $$
+
+$$ \hat{F}_i - \dot{\hat{P}}_i = 0 $$
+
+When we consider all equations in matricial form:
+
+$$A_N \, \varphi_A - M_N \, \varphi_N - b_M = 0$$
+
+$$ \begin{bmatrix} A_N & - M_N \end{bmatrix} \, \begin{bmatrix} \varphi_A \\ \varphi_N \end{bmatrix} = b_M $$
+
+* Case of Parallel Systems
+
+In that case, we will end-up with more joint variables than motion equations. But the joints variables are related one to the other and we can use the traditional [[file:davies_method.org][Davies Method]] with [[file:hyper_dual_numbers.org][Hyper-Dual Numbers]] to find the relations.
+
+** Start by the already made [[file:coupling_graph.org][Coupling Graph]]
+
+** Do the kinematic analysis of [[file:davies_method.org][Davies Method]] but using [[file:dual_twist_of_a_joint.org][Hyper-Dual Twist of a Joint]] instead of the traditional twist.
+
+** Isolate the Hyper-Dual part, which is the acceleration
+
+$$ \dot{\nu} = d\check{\epsilon} \, (\check{\nu}) =  \dot{\omega} + \epsilon \, \dot{v} $$
+
+** Build the [[file:motion_network_matrix.org][Motion Network Matrix]] ($M_{N}^*$)
+
+** The Kinematics realtions can be found by:
+
+$$M_N^* \ \varphi_M = 0$$
+
+* Final System
+
+** Serial Mechanisms
+
+$$ \begin{bmatrix} A_N & - M_N \end{bmatrix} \, \begin{bmatrix} \varphi_A \\ \varphi_N \end{bmatrix} = b_M $$
+
+$M_S : \begin{bmatrix} A_N & - M_N \end{bmatrix}$
+
+$\varphi : \begin{bmatrix} \varphi_A \\ \varphi_N \end{bmatrix}$
+
+$b : b_M$
+
+
+$$ M_S \ \varphi = b $$
+
+** Parallel mechanisms
+
+Increase the previous system to add the relations between the joints variables in a parallel system.
+
+$$ \begin{bmatrix}  A_N  & - M_N  \\ 0 & M_N^*  \end{bmatrix}
+\, \begin{bmatrix} \varphi_A \\ \varphi_N \end{bmatrix} = \begin{bmatrix} b_M \\ 0 \end{bmatrix} $$
+
+
+$M_S : \begin{bmatrix}  A_N  & - M_N  \\ 0 & M_N^*  \end{bmatrix}$
+
+$\varphi : \begin{bmatrix} \varphi_A \\ \varphi_N \end{bmatrix}$
+
+$b : \begin{bmatrix} b_M \\ 0 \end{bmatrix}$
+
+
+$$ M_S \ \varphi = b $$
+
+
+* Solving the System
+
+** Arrange the known parameters to the other side
+
+*** Localize the known variables
+
+*** Extract the respective column of the known variables and negate it to the other side of the equation.
+
+*** Now you have:
+
+**** $\varphi^*:$ $\varphi$ without the extracted variables.
+
+**** $M_S^* :$ $M_S$ without the columns related to the extracted variables.
+
+**** $b_S:$ Other side of the equation with the extracted varibles combined plus $b$
+
+** Solve the resulting linear system to compute the Kinematics and Statics
+
+$$M_S^* \ \varphi^* = b_s$$
+
+* Considerações adicionais sobre a técnica
+
+** [[file:loss_of_continuity_in_mobile_frames_davies_method_for_dynamics.org][Como tratar casos de quebra de continuidade nos referenciais móveis]]
+
+** [[file:integration_with_successive_screws_method_davies_method_for_dynamics.org][Integração com o método dos helicóides successivos]]
+
+** Ver se existe integração possível com [[file:screw_calculus.org][Screw Calculus]]
+
+** Ler o trabalho do Prof Daniel sobre o Método de Davies

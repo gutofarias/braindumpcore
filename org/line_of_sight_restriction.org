@@ -1,0 +1,9 @@
+#+TITLE: Line-of-Sight Restriction
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-13 Mon 17:31]
+#+LAST_MODIFIED: [2021-09-13 Mon 17:34]
+#+ROAM_TAGS: 
+
+The restriction that a spacecraft has to approach its destination through and angle that allows its instruments to see/detect the destination.
+

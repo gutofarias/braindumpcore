@@ -1,0 +1,10 @@
+#+TITLE: Dual Swap Operator
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 13:41]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:43]
+#+ROAM_TAGS: 
+
+If we combine the [[file:dual_operator.org][Dual Operator]] and the [[file:dual_derivative_operator.org][Dual Derivative Operator]] we can build a dual swap operator by:
+
+$$ (\epsilon + d\epsilon) (a + \epsilon\, b) = b + \epsilon \, a $$

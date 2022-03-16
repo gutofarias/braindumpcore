@@ -1,0 +1,8 @@
+#+TITLE: Functional Programming
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-18 Sun 17:47]
+#+LAST_MODIFIED: [2021-07-18 Sun 17:47]
+#+ROAM_TAGS: 
+
+

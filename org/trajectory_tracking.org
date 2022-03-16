@@ -1,0 +1,8 @@
+#+TITLE: Trajectory Tracking
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-10-07 Thu 11:32]
+#+LAST_MODIFIED: [2021-10-07 Thu 11:32]
+#+ROAM_TAGS: 
+
+

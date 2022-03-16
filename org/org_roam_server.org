@@ -1,0 +1,12 @@
+#+TITLE: org-roam-server
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-07-02 Fri 11:41]
+#+ROAM_TAGS: 
+
+- source :: [[https://github.com/org-roam/org-roam-server]]
+  
+Cria um servidor em forma de html que mostra o grafo com as notas. O mesmo princípio do org-roam-graph porém muito melhor. A pessoa pode arrastar, visualizar os arquivos, filtras, etc. Muito massa a funcionalidade.
+
+Pra funcionar bem quando clicar e abrir diretamente o buffer respectivo no emacs é preciso ter instalado e configurado o método [[file:org_roam_protocol.org][org-roam-protocol]].

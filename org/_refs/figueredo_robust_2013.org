@@ -1,0 +1,64 @@
+#+TITLE: figueredo_robust_2013 | Robust kinematic control of manipulator robots using dual quaternion representation
+#+CREATED: [2021-07-09 Fri 10:38]
+#+LAST_MODIFIED: [2021-07-20 Tue 10:38]
+#+ROAM_KEY: cite:figueredo_robust_2013
+#+ROAM_TAGS: 
+
+- tags :: [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]] 
+  
+* Resumo
+Very good article in general, very well writen. Talks about a $H_\infty$ control using dual quaternions for the kinematics and control (for control the dual quarternion is used as an 8-vector). The control strategy is robust as it rejects perturbations. Also it defines a new error metric (more in the notes).
+Very good introduction.
+
+* Info
+:PROPERTIES:
+:ID: figueredo_robust_2013
+:DOCUMENT_PATH: ../../../Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf
+:TYPE: Inproceedings
+:AUTHOR: Figueredo, L., Adorno, B., Ishihara, J., & Borges, G.
+:YEAR: 2013
+:JOURNAL: 
+:DOI:  http://dx.doi.org/10.1109/ICRA.2013.6630836
+:URL: http://ieeexplore.ieee.org/document/6630836/
+:KEYWORDS: nlido
+:END:
+:ABSTRACT:
+This paper addresses the H$infty$ robust control problem for robot manipulators using unit dual quaternion representation, which allows an utter description of the end-effector transformation without decoupling rotational and translational dynamics. We propose three different H$infty$ control criteria that ensure asymptotic convergence, whereas reducing the influence of disturbances upon the system stability. Also, with a new metric of dual quaternion error in SE(3) we prove independence from robot coordinate changes. Simulation results highlight the importance and effectiveness of the proposed approach in terms of performance, robustness, and energy efficiency.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf::6]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf-annot-1-0
+:END:
+
+Very good article in general, very well writen. Talks about a $H_\infty$ control using dual quaternions for the kinematics and control (for control the dual quarternion is used as an 8-vector). The control strategy is robust as it rejects perturbations. Also it defines a new error metric (more in the notes).
+Very good introduction.
+
+** Curiosidade
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf::1++5.69;;annot-1-1]]
+:ID:       ../../../Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf-annot-1-1
+:END:
+
+Kinematic control can be used when robot dynamics can be neglected, as in stiff (rígido) robots operating at low velocities.
+
+** Nova métrica de erro
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf::3++8.55;;annot-3-0]]
+:ID:       ../../../Zotero/storage/XPDGCH5S/Figueredo et al. - 2013 - Robust kinematic control of manipulator robots usi.pdf-annot-3-0
+:END:
+
+The author defines a new error metric, very simple and given by
+
+\begin{align*}
+x_e &= x_m^* \, x_d \\
+e &= 1 - x_e
+\end{align*}
+
+The author claims that this new error is coordinate invariant, which is true but it is so because $x_e$ itself is coordinate invariant.

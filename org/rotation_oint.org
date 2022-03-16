@@ -1,0 +1,8 @@
+#+TITLE: Rotation Joint
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 15:30]
+#+LAST_MODIFIED: [2022-02-18 Fri 16:28]
+#+ROAM_TAGS: 
+
+[[file:joints.org][Joint]] that only allows [[file:degrees_of_freedom.org][one]] relative rotation of the [[file:links_mechanism.org][links]] it connects. The rotation is done around a defined axis.

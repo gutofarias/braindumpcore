@@ -1,0 +1,8 @@
+#+TITLE: bookmarklet
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-30 Wed 10:50]
+#+LAST_MODIFIED: [2021-06-30 Wed 10:51]
+#+ROAM_TAGS: 
+
+É adicionado como uma página de favorito porém no lugar de ser uma página em si, é um código em javascript.

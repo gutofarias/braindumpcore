@@ -1,0 +1,36 @@
+#+TITLE: lee_optimal_2015 | Optimal Power Descent Guidance with 6-DoF Line of Sight Constraints via Unit Dual Quaternions
+#+CREATED: [2021-07-09 Fri 10:31]
+#+LAST_MODIFIED: [2021-07-16 Fri 17:10]
+#+ROAM_KEY: cite:lee_optimal_2015
+#+ROAM_TAGS: 
+
+- tags :: [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]]
+
+Não li porque parece ser muito similar ao trabalho cite:lee_constrained_2017, sendo o mesmo tema com os mesmos autores. Parece ser o mesmo trabalho mas um foi pra congresso e o outro pra revista.
+
+* Info
+:PROPERTIES:
+:ID: lee_optimal_2015
+:DOCUMENT_PATH: ../../../Zotero/storage/HM4966QF/Lee e Mesbahi - 2015 - Optimal Power Descent Guidance with 6-DoF Line of .pdf
+:TYPE: Inproceedings
+:AUTHOR: Lee, U., & Mesbahi, M.
+:YEAR: 2015
+:JOURNAL: 
+:DOI:  http://dx.doi.org/10.2514/6.2015-0319
+:URL: http://arc.aiaa.org/doi/10.2514/6.2015-0319
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/HM4966QF/Lee e Mesbahi - 2015 - Optimal Power Descent Guidance with 6-DoF Line of .pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/HM4966QF/Lee e Mesbahi - 2015 - Optimal Power Descent Guidance with 6-DoF Line of .pdf::1]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/HM4966QF/Lee e Mesbahi - 2015 - Optimal Power Descent Guidance with 6-DoF Line of .pdf::1++0.28;;annot-1-8]]
+:ID:       ../../../Zotero/storage/HM4966QF/Lee e Mesbahi - 2015 - Optimal Power Descent Guidance with 6-DoF Line of .pdf-annot-1-8
+:END:
+
+Não li porque parece ser muito similar ao trabalho cite:lee_constrained_2017, sendo o mesmo tema com os mesmos autores. Parece ser o mesmo trabalho mas um foi pra congresso e o outro pra revista.

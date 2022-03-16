@@ -1,0 +1,9 @@
+#+TITLE: Moving Horizon Estimator (MHE)
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-16 Thu 18:13]
+#+LAST_MODIFIED: [2021-09-16 Thu 18:20]
+#+ROAM_TAGS: 
+
+An algorithm for [[file:estimation.org][estimation]] that uses a moving horizon strategy similar to MPC, taking into account a window/horizon of past values in order to come up with an estimation.
+

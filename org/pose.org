@@ -1,0 +1,8 @@
+#+TITLE: Pose
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-10-07 Thu 18:15]
+#+LAST_MODIFIED: [2021-10-07 Thu 18:16]
+#+ROAM_TAGS: 
+
+In the context of robotics it's the information of position and orientation combined.

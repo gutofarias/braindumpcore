@@ -1,0 +1,14 @@
+#+TITLE: Difference of the approach to Dynamics in Force Analysins - Davies Method for Dynamics
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 13:11]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:15]
+#+ROAM_TAGS: 
+
+Check out [[file:understanding_davies_method_s_statics_analysis.org][Understanding Davies Method's statics analysis]] first.
+
+In dynamics calculations we need to perform the sum of forces and moments acting in each individual body. So for each [[file:links_mechanism.org][link]]/[[file:graph_node.org][node]] we compute the sum of forces and moments acting in the link.
+
+Also, we need to chose a point in order to calculate the external moments. For simplicity, the point should be the center of mass of the link.
+
+In order to do that, we first build an [[file:action_graph.org][Action Graph]] and make a "circular cut" in every node to account for all efforts acting on the node/link. Each node will generate one equation.

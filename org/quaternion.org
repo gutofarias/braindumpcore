@@ -1,0 +1,10 @@
+#+TITLE: Quaternion
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-06 Mon 18:59]
+#+LAST_MODIFIED: [2021-09-06 Mon 19:14]
+#+ROAM_TAGS: 
+
+A quantity comprised of a scalar part and a vector part, the vector part has three components.
+Very useful for describing rotations in 3d space.
+

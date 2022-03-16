@@ -1,0 +1,8 @@
+#+TITLE: Networks Graphs
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 10:51]
+#+LAST_MODIFIED: [2022-02-18 Fri 16:22]
+#+ROAM_TAGS: 
+
+In [[file:davies_method.org][Davies Method]], the Networks Graphs are made using the [[file:motion_graph.org][Motion Graph]] without the [[file:strings_in_a_tree_graph.org][strings]], then we add *one string at a time* to form the graphs with a loop.

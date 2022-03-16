@@ -1,0 +1,94 @@
+#+TITLE: Davies Method
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-06 Tue 11:42]
+#+LAST_MODIFIED: [2022-02-18 Fri 19:03]
+#+ROAM_TAGS: 
+
+Davies Method is a method for computing the differential kinematics and statics of a general mechanical system using [[file:graph_theory.org][Graph Theory]], [[file:screw_theory.org][Screw Theory]] and [[file:plucker_coordinates.org][Plucker Coordinates]].
+
+Start with a [[file:closed_kinematic_chain_system.org][Closed Kinematic Chain System]] (can be used with a [[file:serial_mechanism.org][Open Kinematic Chain System]] but it requires virtual links and joints) then follow the procedure
+
+* Enumerate the joints and links
+Use letters for the joints and numbers for the links. The earth or [[file:base_link.org][support]] should be number 0 or 1 (when there is no 0).
+
+* Build a [[file:coupling_graph.org][Coupling Graph]] 
+
+* Build a [[file:tree_graph.org][Tree Graph]] by [[file:transforming_a_graph_into_a_tree.org][transforming the coupling graph into a tree]].
+Account for the number os branches (k) and the number of strings (v) in the final tree.
+
+* Evalute the [[file:degrees_of_freedom.org][degrees of freedom]] (f) and [[file:constraints_of_motion.org][constraints]] (c) of each joint.
+
+* Kinematic Analysis
+
+** Build the [[file:motion_graph.org][Motion Graph]]
+
+** Build the [[file:networks_graph.org][Networks Graph]]
+
+** Build the [[file:circuits_matrix.org][Circuits Matrix]] (B)
+
+** Define the [[file:twist.org][twists]] of the [[file:graph_edge.org][edges]] by [[file:twist_of_a_joint.org][Twist of a Joint]].
+
+** Build the [[file:direct_twists_matrix.org][Direct Twists Matrix]] (M_D)
+Acho esse passo desnecessário, dá pra construir M_N sem M_D.
+
+** Build the [[file:motion_network_matrix.org][Motion Network Matrix]] (M_N)
+
+** Define the [[file:vector_of_motion_parameters.org][Vector of Motion Parameters]] ($\varphi_M$)
+
+** The Kinematics realtions can be found by:
+
+$$M_N \ \varphi_M = 0$$
+ 
+* Statics Analysis
+
+** Build the [[file:action_graph.org][Action Graph]]
+
+** Build the [[file:cut_set_matrix.org][Cut-Set Matrix]] (Q_a)
+
+** Define the [[file:wrench.org][wrenches]] of the edges by [[file:wrench_of_a_joint.org][Wrench of a Joint]].
+
+** Build the [[file:direct_wrenches_matrix.org][Direct Wrenches Matrix]] (A_D)
+Acho esse passo desnecessário, dá pra construir A_N sem A_D.
+
+** Build the [[file:action_network_matrix.org][Action Network Matrix]] (A_N)
+
+** Define the [[file:vector_of_action_parameters.org][Vector of Action Parameters]] ($\varphi_A$)
+
+** The Statics relations can be found by:
+
+$$A_N \ \varphi_A = 0$$
+
+* Coupling Between Kinematics and Statics
+
+There may be a coupling between kinematics and statics, much like in the form of a viscous friction.
+
+* Solving the System
+
+** Build the [[file:vector_of_system_parameters.org][Vector of System Parameters]] ($\varphi$)
+
+** Build the [[file:coupled_equations_matrix.org][Coupled Equations Matrix]] ($C_{T\omega}$)
+
+** Build the [[file:system_matrix.org][System Matrix]] ($M_S$)
+
+** The combined equation for Kinematics and Statics can be found by:
+
+$$M_S \ \varphi = 0$$
+
+** Arrange the known parameters to the other side
+
+*** Localize the known variables
+
+*** Extract the respective column of the known variables and negate it to the other side of the equation.
+
+*** Now you have:
+
+**** $\varphi^*:$ $\varphi$ without the extracted variables.
+
+**** $M_S^* :$ $M_S$ without the columns related to the extracted variables.
+
+**** $b_S:$ Other side of the equation with the extracted varibles combined.
+
+** Solve the resulting linear system to compute the Kinematics and Statics
+
+$$M_S^* \ \varphi^* = b_s$$

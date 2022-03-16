@@ -1,0 +1,10 @@
+#+TITLE: org-roam-protocol
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-30 Wed 10:10]
+#+LAST_MODIFIED: [2021-06-30 Wed 11:26]
+#+ROAM_TAGS: 
+
+Estende o [[file:org_protocol.org][org-protocol]] para adicionar dois tipos de links: [[file:roam_file_protocol.org][roam-file protocol]] e [[file:roam_ref_protocol.org][roam-ref protocol]].
+
+Obs.: Não é um pacote separado, já está incluso no [[file:org_roam.org][org-roam]].

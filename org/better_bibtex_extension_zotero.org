@@ -1,0 +1,14 @@
+#+TITLE: Better Bibtex Extension (Zotero)
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-28 Mon 10:16]
+#+ROAM_TAGS: 
+
+- source :: [[https://retorque.re/zotero-better-bibtex/]]
+
+Extensão do Zotero
+
+Essa extensão permite, dentre outras coisas, manter sincronizado um arquivo .bib com as referências. Ou seja, toda vez que adicionar uma referência no zotero ele atualiza meu .bib
+
+Além disso permite configurar o formato do citekey gerado. Não sei se será útil pra integrar com as anotações geradas pelo [[file:org_noter.org][org-noter]] a partir do [[file:ivy_bibtex.org][ivy-bibtex]].

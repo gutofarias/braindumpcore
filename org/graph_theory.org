@@ -1,0 +1,8 @@
+#+TITLE: Graph Theory
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-08 Thu 10:35]
+#+LAST_MODIFIED: [2022-02-17 Thu 12:43]
+#+ROAM_TAGS: 
+
+The theory formulated around [[file:graph.org][Graphs]].

@@ -1,0 +1,8 @@
+#+TITLE: Transference Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-14 Tue 18:25]
+#+LAST_MODIFIED: [2021-09-14 Tue 18:25]
+#+ROAM_TAGS: 
+
+

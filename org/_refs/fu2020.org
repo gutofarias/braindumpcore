@@ -1,0 +1,41 @@
+#+TITLE: fu2020 | A Dual Quaternion-Based Approach for Coordinate Calibration of Dual Robots in Collaborative Motion
+#+CREATED: [2021-09-23 Thu 18:16]
+#+LAST_MODIFIED: [2021-09-24 Fri 11:15]
+#+ROAM_KEY: cite:fu2020
+#+ROAM_TAGS: 
+
+Interesting article about coordinate calibration of [[file:../dual_robots.org][dual robots]] using dual quaternions. The problem itself is very interesting, we have two robot coordinates system, one camera coordinate system and one coordinate system relative to the object being held. So in order to relate all this coordinates systems and assure that they are calibrated, the authors calibrate a hand-eye, a robot-robot and a tool-flange transformations.
+
+The article concludes that the DQ methodology offers higher calibration accurary when compared to existing methods.
+
+* Info
+:PROPERTIES:
+:ID: fu2020
+:DOCUMENT_PATH: ../../../Zotero/storage/XJSPHGS4/Fu et al. - 2020 - A Dual Quaternion-Based Approach for Coordinate Ca.pdf
+:TYPE: Article
+:AUTHOR: Fu, Z., Pan, J., Spyrakos-Papastavridis, Emmanouil, Chen, X., & Li, M.
+:YEAR: 2020
+:JOURNAL: IEEE Robot. Autom. Lett.
+:DOI:  http://dx.doi.org/10.1109/LRA.2020.2988407
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+Coordinate calibration accuracy is a prerequisite for the achievement of collaborative motion of dual robots, and visual positioning. In the case of AXB=YCZ, the associated hand-eye (X), robot-robot (Y), and tool-flange (Z) coordinate relationships need to be determined in order to provide accurate data for dual-robot manipulation. The classical independent estimations and separable solving of rotational and translational components, inevitably induce certain levels of inaccuracy and inconsistency. To this end, the work presented herein describes an efficient approach based on dual quaternion (DQ), to the calibration of the hand-eye (X), robot-robot (Y), tool-flange (Z) transformations, corresponding to the dual-robot collaborative motion. After establishing a closedform kinematic equation for dual robots in DQ form, the calibration process is divided into two steps: 1) the hand-eye transformation (X) calibration is performed by letting the one robot with the visual sensor move freely, while keeping the other robot with the end-tool in a fixed configuration, thereby allowing the calibration result to be obtained by solving the DQ-based linear equations with the SVD algorithm; 2) the simultaneous calibration of robot-robot (Y) and tool-flange (Z) is transformed into a DQ-based equation, and the results are obtained in a similar way. A simulation analysis is carried out, accounting for the presence of noise levels and different data pairs, while calibration experiments are also conducted to verify the accuracy and efficacy of the proposed method.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/XJSPHGS4/Fu et al. - 2020 - A Dual Quaternion-Based Approach for Coordinate Ca.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/XJSPHGS4/Fu et al. - 2020 - A Dual Quaternion-Based Approach for Coordinate Ca.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/XJSPHGS4/Fu et al. - 2020 - A Dual Quaternion-Based Approach for Coordinate Ca.pdf::1++0.00;;annot-1-7]]
+:ID:       ../../../Zotero/storage/XJSPHGS4/Fu et al. - 2020 - A Dual Quaternion-Based Approach for Coordinate Ca.pdf-annot-1-7
+:END:
+
+Interesting article about coordinate calibration of [[file:../dual_robots.org][dual robots]] using dual quaternions. The problem itself is very interesting, we have two robot coordinates system, one camera coordinate system and one coordinate system relative to the object being held. So in order to relate all this coordinates systems and assure that they are calibrated, the authors calibrate a hand-eye, a robot-robot and a tool-flange transformations.
+
+The article concludes that the DQ methodology offers higher calibration accurary when compared to existing methods.

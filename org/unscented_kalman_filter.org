@@ -1,0 +1,8 @@
+#+TITLE: Unscented Kalman Filter
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-23 Thu 16:41]
+#+LAST_MODIFIED: [2021-09-23 Thu 16:47]
+#+ROAM_TAGS: 
+
+A type of [[file:estimation.org][estimator]] that treats non-linear systems but do not linearize them like [[file:extended_kalman_filter.org][Extended Kalman Filter]]

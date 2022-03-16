@@ -1,0 +1,17 @@
+#+TITLE: Hyper-Dual Twist
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-07 Mon 16:15]
+#+LAST_MODIFIED: [2022-03-07 Mon 16:59]
+#+ROAM_TAGS: 
+
+It is an enlarged [[file:twist.org][twist]] that carries the information of both velocity and acceleration using [[file:hyper_dual_vectors.org][Hyper-Dual Vectors]]. Or a movement and its derivative. It uses the [[file:automatic_differentiation.org][Automatic Differentiation]] property of [[file:dual_numbers.org][Dual Numbers]]/[[file:hyper_dual_numbers.org][Hyper-Dual Numbers]].
+
+If we have an velocity twist:
+$$ \hat{\nu} = \vec{\omega} + \epsilon \, \vec{v} = (\omega + \epsilon \, v) \hat{s} = |\hat\nu| \, \hat{s} $$
+
+The hyper-dual velocity twist will be:
+
+k$$ \check{\nu} = [\hat{\omega} + \epsilon \, \hat{v} + \check{\epsilon} ( \dot{\hat{\omega}} + \epsilon \, \dot{\hat{v}})] = [\omega + \epsilon \, v + \check{\epsilon}(\dot{\omega} + \epsilon \, \dot{s})] ( \hat{s} + \check{\epsilon} \, \dot{\hat{s}} ) $$
+
+$$ \check{\nu} = (|\nu| + \check{\epsilon} \, |\dot{\nu}|) ( \hat{s} + \check{\epsilon} \, \dot{\hat{s}} ) = \hat{\nu} + \check{\epsilon} \, \dot{\hat{\nu}} = |\check{\nu}| \, \check{s}$$

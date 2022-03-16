@@ -1,0 +1,37 @@
+#+TITLE: dong2018 | Dual-Quaternion-Based Spacecraft Autonomous Rendezvous and Docking Under Six-Degree-of-Freedom Motion Constraints
+#+CREATED: [2021-09-10 Fri 15:24]
+#+LAST_MODIFIED: [2021-09-10 Fri 15:42]
+#+ROAM_KEY: cite:dong2018
+#+ROAM_TAGS: 
+
+- tag :: [[file:../_writing/article_dual_quaternions_applications.org][Article - Dual Quaternions Applications]]
+
+The work shows the control of a [[file:../rendezvous_and_docking.org][Rendezvous and Docking]] process using dual quaternions to describe the kinematics and formulate two restrictions, one for the line of sight of the chaser to the target spacecraft and other to ensure a safe approach path from the chaser to the target in order to not hit any external equipament of the target. The authors use Artificial Potential Functions to formulate the control problem and perform a [[file:../lyapunov_stability_analysis.org][Lyapunov Stability Analysis]]. 
+
+
+* Info
+:PROPERTIES:
+:ID: dong2018
+:DOCUMENT_PATH: ../../../Zotero/storage/JR58FULM/Dong et al. - 2018 - Dual-Quaternion-Based Spacecraft Autonomous Rendez.pdf
+:TYPE: Article
+:AUTHOR: Dong, H., Hu, Q., & Akella, M. R.
+:YEAR: 2018
+:JOURNAL: Journal of Guidance, Control, and Dynamics
+:DOI:  http://dx.doi.org/10.2514/1.G003094
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/JR58FULM/Dong et al. - 2018 - Dual-Quaternion-Based Spacecraft Autonomous Rendez.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/JR58FULM/Dong et al. - 2018 - Dual-Quaternion-Based Spacecraft Autonomous Rendez.pdf::11]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/JR58FULM/Dong et al. - 2018 - Dual-Quaternion-Based Spacecraft Autonomous Rendez.pdf::1++0.00;;annot-1-32]]
+:ID:       ../../../Zotero/storage/JR58FULM/Dong et al. - 2018 - Dual-Quaternion-Based Spacecraft Autonomous Rendez.pdf-annot-1-32
+:END:
+
+O trabalho mostra o controle do processo de Rendezvous e Docking usando quatérnios duais para formular duas restrições, uma que é manter a linha de vista entre o chaser e o target e a outra é garantir uma trajetória segura de aproximação, para não bater em nenhum componente do target. Os autores usam Artificial Potential Functions para formular o problema de controle e provam a estabilidade por Lyapunov.

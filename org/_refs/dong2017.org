@@ -1,0 +1,39 @@
+#+TITLE: dong2017 | Dual-Quaternion-Based Fault-Tolerant Control for Spacecraft Tracking With Finite-Time Convergence
+#+CREATED: [2021-10-05 Tue 15:58]
+#+LAST_MODIFIED: [2021-10-05 Tue 18:44]
+#+ROAM_KEY: cite:dong2017
+#+ROAM_TAGS: 
+
+A fault-tolerant sliding modes controller using dual quaternions is proposed for a target-pursuer spacecraft tracking. The proposed controller can achieve a few desired properties as tracking error converging to zero within a choosed finite time. The faults can be partial or total actuator power loss, actuator offset and locking.
+The controller is used in a simulation showing promising results.
+
+* Info
+:PROPERTIES:
+:ID: dong2017
+:DOCUMENT_PATH: ../../../Zotero/storage/9XB2JBWW/Dong et al. - 2017 - Dual-Quaternion-Based Fault-Tolerant Control for S.pdf
+:TYPE: Article
+:AUTHOR: Dong, H., Hu, Q., Friswell, M. I., & Ma, G.
+:YEAR: 2017
+:JOURNAL: IEEE Trans. Contr. Syst. Technol.
+:DOI:  http://dx.doi.org/10.1109/TCST.2016.2603070
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+Results are presented for a study of dual       extendash quaternion-based fault-tolerant control for spacecraft tracking. First, a six-degrees-of-freedom dynamic model under a dualquaternion-based description is employed to describe the relative coupled motion of a target-pursuer spacecraft tracking system. Then, a novel fault-tolerant control method is proposed to enable the pursuer to track the attitude and the position of the target even though its actuators have multiple faults. Furthermore, based on a novel time-varying sliding manifold, finite-time stability of the closed-loop system is theoretically guaranteed, and the convergence time of the system can be given explicitly. Multiple-task capability of the proposed control law is further demonstrated in the presence of disturbances and parametric uncertainties. Finally, numerical simulations are presented to demonstrate the effectiveness and advantages of the proposed control method.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/9XB2JBWW/Dong et al. - 2017 - Dual-Quaternion-Based Fault-Tolerant Control for S.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/9XB2JBWW/Dong et al. - 2017 - Dual-Quaternion-Based Fault-Tolerant Control for S.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/9XB2JBWW/Dong et al. - 2017 - Dual-Quaternion-Based Fault-Tolerant Control for S.pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/9XB2JBWW/Dong et al. - 2017 - Dual-Quaternion-Based Fault-Tolerant Control for S.pdf-annot-1-0
+:END:
+
+A fault-tolerant sliding mode controller using dual quaternions is proposed for a target-pursuer spacecraft tracking. The proposed controller can achieve a few desired properties as tracking error converging to zero within a choosed finite time. The faults can be partial or total actuator power loss, actuator offset and locking.
+The controller is used in a simulation showing promising results.

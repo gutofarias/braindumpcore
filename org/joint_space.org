@@ -1,0 +1,8 @@
+#+TITLE: Joint Space
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-17 Fri 11:47]
+#+LAST_MODIFIED: [2021-09-17 Fri 16:47]
+#+ROAM_TAGS: 
+
+Is the space (in a vector space sense) of the joints, represented as a vector which each component is a joint variable.

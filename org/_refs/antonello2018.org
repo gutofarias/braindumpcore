@@ -1,0 +1,37 @@
+#+TITLE: antonello2018 | A Dual Quaternion Feedback Linearized Approach for Maneuver Regulation of Rigid Bodies
+#+CREATED: [2021-10-06 Wed 16:31]
+#+LAST_MODIFIED: [2021-10-07 Thu 11:50]
+#+ROAM_KEY: cite:antonello2018
+#+ROAM_TAGS: 
+
+The work proposes a [[file:../maneuver_regulation.org][Maneuver Regulation]] Feedback Linearization Controller using dual quaternions for a 6Dof free body. The results show better results for the Maneuver Regulation than the [[file:../trajectory_tracking.org][Trajectory Tracking]].
+
+* Info
+:PROPERTIES:
+:ID: antonello2018
+:DOCUMENT_PATH: ../../../Zotero/storage/ICWURJB2/Antonello et al. - 2018 - A Dual Quaternion Feedback Linearized Approach for.pdf
+:TYPE: Article
+:AUTHOR: Antonello, A., Michieletto, G., Antonello, R., & Cenedese, A.
+:YEAR: 2018
+:JOURNAL: IEEE Control Syst. Lett.
+:DOI:  http://dx.doi.org/10.1109/LCSYS.2018.2834300
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+The adoption of the dual quaternion formalism to represent the pose (position and orientation) of a rigid body allows to design a single controller to regulate both its position and its attitude. In this letter, we adopt such a pose representation to develop an exponentially stable maneuver regulation control law, ensuring robust path following in the presence of disturbances. The designed solution relies on the feedback linearized model of the dual quaternion based dynamics of the rigid body. Numerical results confirm the effectiveness of the proposed maneuver regulation approach when compared with trajectory tracking in a noisy scenario.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/ICWURJB2/Antonello et al. - 2018 - A Dual Quaternion Feedback Linearized Approach for.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/ICWURJB2/Antonello et al. - 2018 - A Dual Quaternion Feedback Linearized Approach for.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/ICWURJB2/Antonello et al. - 2018 - A Dual Quaternion Feedback Linearized Approach for.pdf::1++0.00;;annot-1-17]]
+:ID:       ../../../Zotero/storage/ICWURJB2/Antonello et al. - 2018 - A Dual Quaternion Feedback Linearized Approach for.pdf-annot-1-17
+:END:
+
+The work proposes a [[file:../maneuver_regulation.org][Maneuver Regulation]] Feedback Linearization Controller using dual quaternions for a 6Dof free body. The results show better results for the Maneuver Regulation than the [[file:../trajectory_tracking.org][Trajectory Tracking]].

@@ -1,0 +1,10 @@
+#+TITLE: Action Network Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 17:00]
+#+LAST_MODIFIED: [2022-02-18 Fri 17:13]
+#+ROAM_TAGS: 
+
+Start from the [[file:cut_set_matrix.org][Cut-Set Matrix]] (Qa) and replace each element of it with the corresponding [[file:wrench.org][wrench]] (read the OBS) times the value of the element in Qa.
+
+OBS.: Actually it uses not the whole wrench, just the [[file:screw.org][screw]] associated with the wrench.

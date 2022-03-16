@@ -1,0 +1,11 @@
+#+TITLE: Transforming a graph into a tree
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 12:56]
+#+LAST_MODIFIED: [2022-02-17 Thu 13:17]
+#+ROAM_TAGS: 
+
+To generate a [[file:tree_graph.org][Tree Graph]] from a general [[file:graph.org][Graph]] we must choose some edges to be [[file:branches_in_a_tree_graph.org][branches]] and some to be [[file:strings_in_a_tree_graph.org][arcs/strings]]. If a graph is already a tree, all its edges are then branches. Otherwise it will have too many edges and we have to choose some to be arcs. The arcs are "excluded" from the graph and by doing that the remaining graph is a tree.
+The strings can be drawed in the tree graph by drawing them dashed.
+
+It is a really simple process to do and can be easily made visually.

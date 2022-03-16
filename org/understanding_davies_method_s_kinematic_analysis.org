@@ -1,0 +1,12 @@
+#+TITLE: Understanding Davies Method's kinematic analysis
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-07 Mon 12:45]
+#+LAST_MODIFIED: [2022-03-07 Mon 18:17]
+#+ROAM_TAGS: 
+
+When performing [[file:davies_method.org][Davies Method]], we use the [[file:base_link.org][origin of the system]] as a reference for kinematic calculations. Once we compute the effect of a joint into a link, it is computed as if the link virtually extended to the origin. So we compute the kinematic of a point in the link virtually positioned when the whole link suffers the kinematic effects caused by the joint movement.
+
+As Davies Method deals with [[file:closed_kinematic_chain_system.org][Closed Kinematic Chain System]] by conception, the [[file:kirchhoff_voltage_law_davies_method.org][Kirchhoff Voltage Law]] applied using [[file:graph_theory.org][Graph Theory]] generates an equation for a [[file:closed_kinematic_chain.org][Closed Kinematic Chain]]. So we compute all the joint contribution to the kinematics of the origin and, as the circuit is closed, we begin at the origin an end at the origin, obtaining a net velocity of zero. Thats how one kinematic equation is born in Davies Method. 
+
+The use of [[file:kirchhoff_voltage_law_davies_method.org][Kirchhoff Voltage Law]] in a [[file:graph_theory.org][Graph]] framework allows us to get unambiguous equations.

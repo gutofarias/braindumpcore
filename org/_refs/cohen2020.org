@@ -1,0 +1,39 @@
+#+TITLE: cohen2020 | Hyper Dual Quaternions representation of rigid bodies kinematics
+#+CREATED: [2021-09-06 Mon 18:37]
+#+LAST_MODIFIED: [2021-09-09 Thu 11:22]
+#+ROAM_KEY: cite:cohen2020
+#+ROAM_TAGS: 
+
+- tags :: [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]] 
+
+O artigo faz uso de [[file:../hyper_dual_quaternions.org][Hyper-Dual Quaternions]] pela primeira vez no cálculo da cinemática de mecanismos. Antes tinhamos os [[file:../hyper_dual_numbers.org][números hiper duais]] e [[file:../hyper_dual_matrices.org][matrizes hiper duais]]. 
+O resultado mostra uma forma compacta de descrever o movimento e de menos uso computacional que matrizes hiper duais. Usando HDQ, calculamos posição e rotação junto com velocidade linear e angular no mesmo quatérnio hiper dual.
+
+* Info
+:PROPERTIES:
+:ID: cohen2020
+:DOCUMENT_PATH: ../../../Zotero/storage/V5VR4HR8/Cohen e Shoham - 2020 - Hyper Dual Quaternions representation of rigid bod.pdf
+:TYPE: Article
+:AUTHOR: Cohen, A., & Shoham, M.
+:YEAR: 2020
+:JOURNAL: Mechanism and Machine Theory
+:DOI:  http://dx.doi.org/10.1016/j.mechmachtheory.2020.103861
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/V5VR4HR8/Cohen e Shoham - 2020 - Hyper Dual Quaternions representation of rigid bod.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/V5VR4HR8/Cohen e Shoham - 2020 - Hyper Dual Quaternions representation of rigid bod.pdf::7]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/V5VR4HR8/Cohen e Shoham - 2020 - Hyper Dual Quaternions representation of rigid bod.pdf::1++0.00;;annot-1-18]]
+:ID:       ../../../Zotero/storage/V5VR4HR8/Cohen e Shoham - 2020 - Hyper Dual Quaternions representation of rigid bod.pdf-annot-1-18
+:END:
+
+O artigo faz uso de [[file:../hyper_dual_quaternions.org][Hyper-Dual Quaternions]] pela primeira vez no cálculo da cinemática de mecanismos. Antes tinhamos os números hiper duais e matrizes hiper duais. 
+O resultado mostra uma forma compacta de descrever o movimento e de menos uso computacional que matrizes hiper duais. Usando HDQ, calculamos posição e rotação junto com velocidade linear e angular no mesmo quatérnio hiper dual.

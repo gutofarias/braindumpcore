@@ -1,0 +1,14 @@
+#+TITLE: Dual Derivative Operator
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 13:28]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:43]
+#+ROAM_TAGS: 
+
+cite:brodsky_dual_1994 criou.
+
+É criado o operador $d\epsilon$ para agir como uma derivada em relação a $\epsilon$ ([[file:dual_operator.org][Dual Operator]]). O seu efeito é fazer o contrário do que o epsilon faz, passa uma quantidade da [[file:dual_part.org][parte dual]] para a [[file:real_part.org][parte real]]. 
+
+When applied to the real part, the operator makes it 0. As an $\epsilon$ does not exist in this part, the derivative of this part in relation to $\epsilon$ is zero.
+
+Another way to think of it is as taking one vector from being a [[file:line_vector.org][Line Vector]] to a [[file:pure_vector.org][Pure Vector]].

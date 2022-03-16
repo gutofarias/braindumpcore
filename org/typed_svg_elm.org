@@ -1,0 +1,8 @@
+#+TITLE: typed-svg (Elm)
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-08-11 Wed 21:58]
+#+LAST_MODIFIED: [2021-08-11 Wed 21:58]
+#+ROAM_TAGS: 
+
+

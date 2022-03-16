@@ -1,0 +1,9 @@
+#+TITLE: Estimation
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-16 Thu 18:16]
+#+LAST_MODIFIED: [2021-09-16 Thu 18:22]
+#+ROAM_TAGS: 
+
+A field in robotics that tries to infer system real parameters based on measurements and predictions.
+

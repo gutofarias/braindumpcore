@@ -1,0 +1,13 @@
+#+TITLE: System Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 18:47]
+#+LAST_MODIFIED: [2022-02-18 Fri 18:53]
+#+ROAM_TAGS: 
+
+Consider:
+- $M_N \rightarrow$ [[file:motion_network_matrix.org][Motion Network Matrix]]
+- $M_A \rightarrow$ [[file:action_network_matrix.org][Action Network Matrix]]
+- $C_{T\omega} \rightarrow$ [[file:coupled_equations_matrix.org][Coupled Equations Matrix]] 
+
+$$M_S = \begin{bmatrix}& M_N && 0 & \\ & 0 && A_N & \\&& C_{T\omega} && \end{bmatrix}$$

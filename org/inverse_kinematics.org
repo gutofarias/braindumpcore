@@ -1,0 +1,10 @@
+#+TITLE: Inverse Kinematics
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-10-07 Thu 18:12]
+#+LAST_MODIFIED: [2021-10-07 Thu 18:16]
+#+ROAM_TAGS: 
+
+Obtain the joints variables value from the [[file:pose.org][pose]] of the [[file:end_link.org][end-effector]].
+It is dificult to obtain, specially to serial robots due to possibly having multiple solutions.
+

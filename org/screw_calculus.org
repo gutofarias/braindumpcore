@@ -1,0 +1,14 @@
+#+TITLE: Screw Calculus
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-06 Tue 11:30]
+#+LAST_MODIFIED: [2021-07-09 Fri 11:40]
+#+ROAM_TAGS: 
+
+Ainda não li nada sobre. O nome me chamou atenção
+
+Será que existe um jacobiano dual quaternionico? Feito utilizando screw calculus?
+
+Yang, A.T., "Calculus of Screws," Basic Questions of Design Theory,
+(edited by W.R. Spiller), American Elsevier Publishing Co., Inc., New York,
+1974, pp. 265-281. (vi em cite:hsia_principle_1981)

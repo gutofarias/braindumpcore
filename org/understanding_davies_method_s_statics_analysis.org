@@ -1,0 +1,12 @@
+#+TITLE: Understanding Davies Method's statics analysis
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-07 Mon 18:07]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:14]
+#+ROAM_TAGS: 
+
+When performing [[file:davies_method.org][Davies Method]], we use the [[file:base_link.org][origin of the system]] as a reference for statics calculations. This means that all the moments are computed relatively to the origin.
+
+If we consider a system in a static condition, no element will be accelerating and the sum of forces and moments in all bodies will amount to zero. Thus we have our equations.
+
+In Davies Method in spite of a traditional sum of forces in a body we perform a [[file:cutting_a_tree_graph.org][cut in the tree graph]] that generates the equations unambiguously.

@@ -1,0 +1,8 @@
+#+TITLE: Pure Real Number
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-03-09 Wed 13:06]
+#+LAST_MODIFIED: [2022-03-09 Wed 13:07]
+#+ROAM_TAGS: 
+
+A [[file:dual_numbers.org][dual number]] at which the [[file:dual_part.org][dual part]] is 0.

@@ -1,0 +1,8 @@
+#+TITLE: Prismatic Joint
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 15:37]
+#+LAST_MODIFIED: [2022-02-17 Thu 15:39]
+#+ROAM_TAGS: 
+
+[[file:joints.org][Joint]] that only allows [[file:degrees_of_freedom.org][one]] relative translation of the [[file:links_mechanism.org][links]] it connects. The translation is done along a defined [[file:line_vector.org][axis]].

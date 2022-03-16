@@ -1,0 +1,8 @@
+#+TITLE: Dual Vector
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 15:23]
+#+LAST_MODIFIED: [2022-02-17 Thu 15:24]
+#+ROAM_TAGS: 
+
+Vector whose each component is a [[file:dual_numbers.org][Dual Numbers]]. Also, can be thought of being two vectors, one [[file:real_part.org][real]] and another [[file:dual_part.org][dual]]. 

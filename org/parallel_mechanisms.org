@@ -1,0 +1,8 @@
+#+TITLE: Parallel Mechanisms
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-09 Thu 11:20]
+#+LAST_MODIFIED: [2022-02-17 Thu 12:19]
+#+ROAM_TAGS: 
+
+[[file:mechanisms.org][Mechanisms]] that are composed of several [[file:kinematic_chains.org][kinematic chains]] which have the same [[file:base_link.org][start link]] and the same [[file:end_link.org][end link]]. They are called parallel because all the kinematic chains connect the same base link to the same end-effector. It also can be viewed as several [[file:closed_kinematic_chain.org][Closed Kinematic Chains]].

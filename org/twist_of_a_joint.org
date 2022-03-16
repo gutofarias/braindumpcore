@@ -1,0 +1,19 @@
+#+TITLE: Twist of a Joint
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 15:27]
+#+LAST_MODIFIED: [2022-02-18 Fri 12:58]
+#+ROAM_TAGS: 
+
+A joint that allows one motion has one defining [[file:screw.org][screw]] and one defining variable.
+
+If the joint is a [[file:rotation_oint.org][rotation joint]], the screw is the [[file:line_vector.org][axis of the joint]] and the variable is the angular velocity (as a scalar). The twist is then the angular velocity of the joint times its screw.
+
+If the joint is a [[file:prismatic_joint.org][prismatic joint]], the screw can be:
+ - A [[file:pure_vector.org][pure vector]] as the [[file:dual_part.org][dual part]] of a [[file:dual_vector.org][dual vector]] or last three components in [[file:plucker_coordinates.org][Plucker Coordinates]]. The defining variable is the translational velocity (as a scalar). The vector is the direction of the translation.
+   In that case, the twist will be the screw multiplied by the real translational velocity. 
+   
+ - An [[file:line_vector.org][axis]] as a dual vector or in Plucker coordinates. The axis would be the literal line at which the translation happens, not only the direction. The defining variable is the dual translational velocity ($0 + \epsilon \, v$) (v is a scalar)
+   In that case, the twist will be the screw multiplied by a dual translational velocity ($0 + \epsilon \, v$).
+
+In general, almost every joint can be built as a combination of rotation joints and prismatic joints, so build the twists accordingly.

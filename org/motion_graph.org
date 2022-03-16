@@ -1,0 +1,10 @@
+#+TITLE: Motion Graph
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-17 Thu 15:09]
+#+LAST_MODIFIED: [2022-02-18 Fri 11:14]
+#+ROAM_TAGS: 
+
+Start with the [[file:tree_graph.org][Tree Graph]] with the [[file:strings_in_a_tree_graph.org][strings]] included as dashed [[file:graph_edge.org][edges]]. Replace each edge by f_i edges in series (you can create virtual nodes just to acomodate the edges in series), one for each [[file:degrees_of_freedom.org][degree of freedom]] that the joint i allows. The replaced edges carry a [[file:twist.org][twist]] also related to the movement it allows.
+
+The twits can be constructed by [[file:twist_of_a_joint.org][Twist of a Joint]], but at the motion graph they should be only refered by a symbol.

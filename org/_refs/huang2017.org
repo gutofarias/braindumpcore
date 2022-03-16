@@ -1,0 +1,39 @@
+#+TITLE: huang2017 | Dual-quaternion based distributed coordination control of six-DOF spacecraft formation with collision avoidance
+#+CREATED: [2021-10-13 Wed 17:13]
+#+LAST_MODIFIED: [2021-10-14 Thu 10:43]
+#+ROAM_KEY: cite:huang2017
+#+ROAM_TAGS: 
+
+The work proposes a [[file:../formation_control.org][formation control]] using dual quaternions, the formation error is controlled through a [[file:../sliding_modes.org][sliding modes controller]] and one term is added for [[file:../collision_avoidance.org][collision avoidance]] using [[file:../artificial_potential_function.org][Artificial Potential Function]].
+
+The part of artificial potential function is interesting and intuitive.
+
+* Info
+:PROPERTIES:
+:ID: huang2017
+:DOCUMENT_PATH: ../../../Zotero/storage/KEH3MLET/Huang et al. - 2017 - Dual-quaternion based distributed coordination con.pdf
+:TYPE: Article
+:AUTHOR: Huang, X., Yan, Y., Zhou, Y., & Yang, Y.
+:YEAR: 2017
+:JOURNAL: Aerospace Science and Technology
+:DOI:  http://dx.doi.org/10.1016/j.ast.2017.04.011
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/KEH3MLET/Huang et al. - 2017 - Dual-quaternion based distributed coordination con.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/KEH3MLET/Huang et al. - 2017 - Dual-quaternion based distributed coordination con.pdf::1]]
+:END:
+
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/KEH3MLET/Huang et al. - 2017 - Dual-quaternion based distributed coordination con.pdf::1++0.00;;annot-1-25]]
+:ID:       ../../../Zotero/storage/KEH3MLET/Huang et al. - 2017 - Dual-quaternion based distributed coordination con.pdf-annot-1-25
+:END:
+
+The work proposes a formation control using dual quaternions, the formation error is controlled through a sliding modes controller and one term is added for collision avoidance using Artificial Potential Function.
+
+The part of artificial potential function is interesting and intuitive.

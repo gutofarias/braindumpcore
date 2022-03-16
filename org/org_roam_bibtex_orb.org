@@ -1,0 +1,16 @@
+#+TITLE: Org Roam Bibtex (ORB)
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:11]
+#+ROAM_TAGS: 
+
+- source :: [[https://github.com/org-roam/org-roam-bibtex]]
+
+Pelo que entendi esse pacote integra o [[file:ivy_bibtex.org][ivy-bibtex]] e [[file:org_ref.org][org-ref]] com o [[file:org_roam.org][org-roam]]. Nesse caso, as citações produzidas a partir dos links criados com org-ref, aparecem no org-roam como "cite backlinks" separados dos backlinks normais.
+
+Isso permite uma dinâmica especial separando os backlinks do que for [[file:literature_notes.org][literature notes]] e do que for [[file:permanent_notes.org][permanent notes]] no método [[file:zettelkasten.org][Zettelkasten]]. 
+
+Talvez seja pertinente *citar* as /literature notes/ e *linkar* as /permanent notes/. Porém nada impede que uma nota literária seja linkada diretamente (ou até mesmo linkar uma anotação específica da nota).
+
+O org-roam-bibtex ainda permite, por meio de um /capture template/ que se faça uma integração com o [[file:org_noter.org][org-noter]]. Isso ocorre quando criamos, a partir do org-roam-bibtex, uma nota literária que já contem as informações do pdf que ela referencia. Isso deixa o org-noter já "configurado" e pronto pra ser usado.

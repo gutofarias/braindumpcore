@@ -1,0 +1,10 @@
+#+TITLE: Lyapunov Stability Analysis
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-10 Fri 15:41]
+#+LAST_MODIFIED: [2021-09-10 Fri 15:48]
+#+ROAM_TAGS: 
+
+Lyapunov formulated a theory for analysing the stability of general systems, which consists of proposing a energy function to the system and proving that this energy function always decreases to zero.
+
+Elaborate further.

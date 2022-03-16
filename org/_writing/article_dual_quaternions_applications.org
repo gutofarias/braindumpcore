@@ -1,0 +1,320 @@
+#+TITLE: Article - Dual Quaternions Applications
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-08 Thu 16:07]
+#+LAST_MODIFIED: [2022-01-10 Mon 16:48]
+#+ROAM_TAGS: 
+
+Esboço do artigo de revisão que estou fazendo sobre [[file:../dual_quaternions_applications.org][Dual Quaternions Applications]].
+
+* Introdução [0/1]
+
+** TODO cite:figueredo_robust_2013
+
+A introdução desse trabalho é muito boa
+
+* Medical Applications [0/2]
+Acho que não vou usar
+
+** TODO cite:birlescu2020
+
+Muito grande. Não li. Só sei que usa os [[file:../study_parameters.org][parâmetros de Study]] e aplica num [[file:../parallel_mechanisms.org][robô médico paralelo]]
+
+** TODO cite:husty2019
+
+The authors proposes a new method to parametrize parallel mechanisms using Study parameters, applying it in a mechanism to help in the lower limb rehabilitation process of post-stroke patients.
+
+* Vantagens [1/2]
+
+** DONE Comparação com HTM [3/3]
+
+*** DONE cite:pham2018
+
+The proposed controller is tested using DQ and HTM. The result is that the DQ controller is almost twice as fast to compute.
+
+*** DONE cite:yacob2020
+
+The common way to compensate variation is using HTM. Using DQ the modeling of the problem became easier as some steps became unnecessary obtaining the same result. Also, DQ allowed to analize other types of form error which the classical model can not analize.
+
+*** DONE cite:mirandadefarias2019
+
+The performance of the algorithm using DQ is compared to using HTM, and the result is favorable to DQ, maybe like 33% less cost in terms of number of operations.
+
+** TODO Técnica usando DQ melhor do que as mais comuns [0/3]
+
+*** TODO cite:wang2018
+
+Method for frame calibration:
+The result was much favorable to the dual quaternion method when compared to a quaternion method and a Procrustes Analysis. The authors credits the higher precision of dual quaternions due to the fact that it computes rotation and translation coupled, so there is no error propagation when computing one and using the result to compute the other.
+
+*** TODO cite:fu2020
+
+The article concludes that the DQ methodology offers higher calibration accurary when compared to existing methods.
+
+*** TODO cite:schwung2021
+
+It applies two different neural networks, a DQ Recurrent NN (DQRNN) and a DQ Long Short Term Memory NN (DQLSTM). DQLSTM obtained a higher accuracy than DQRNN and when we compare it with a normal LSTM the DQLSTM got half the [[file:../root_mean_square_error.org][root mean square error (RMSE)]]. So it performed really well.
+
+
+* Hyper-Dual Numbers [1/1]
+
+** DONE cite:cohen2020
+
+The authors applies for the first time Hyper-Dual Quaternions. Finding a compact representation of pose and its derivative in a single element. Being able to compute kinematics and differential kinematics in only one pass.
+
+* Origami [3/3]
+
+** DONE cite:cai2016
+
+The authors develop a method to check for the rigid foldability of multi-vertex cylindrical origami using dual quaternions. It's a multi step method, one of the steps uses quaternions and the other uses dual quaternions.
+
+** DONE cite:jianguo2017
+
+The paper studies the rigid foldability of a cylindrical origami with Kresling patterns concluding that it is not rigidly foldable. DQs are used in the method that analyses the ridid foldability.
+
+** DONE cite:wu2010
+
+The work uses the correspondence between single-vertex rigid origami and spherical linkage to model it as quaternions and the correspondence of multi-vertex rigid origami and spatial linkage to model it as dual quaternions.
+
+
+* DQ Neural Networks [2/2]
+
+** DONE cite:schilling2019
+
+The author uses Mean of Multiple Computations (MMC) as a hierarchical recurrent neural network to model a redundant robot. The technique generates a lot of simple equations that converge to a feasible solution where there are many ways for the same pose of the end-effector.
+Using dual quaternions components in the neural network, the author can approximate transformations by interpolation, which is shown to be a great advantage of DQs.
+At the end, the author shows the viability of the proposed solution applying it to a complex robot consisting of two arms each having 7 DoF. 
+
+** DONE cite:schwung2021
+
+The work uses [[file:../dual_quaternions_neural_networks.org][Dual-Quaternions Neural Networks]] to predict the behavior (physics) of a simulated system of masses inside a box. So the neural network predicts rigid body movement.
+
+The authors say that using DQ in a neural network allows to incorporate physical bias into the prediction task. I.e., just by using the DQ we are already favoring the task of rigid body movement prediction, due to how DQ relates to this task.
+
+It applies two different neural networks, a DQ Recurrent NN (DQRNN) and a DQ Long Short Term Memory NN (DQLSTM). DQLSTM obtained a higher accuracy than DQRNN and when we compare it with a normal LSTM the DQLSTM got half the [[file:../root_mean_square_error.org][root mean square error (RMSE)]]. So it performed really well.
+
+* Machining  [2/2]
+
+** DONE cite:zhao2017
+
+The paper proposes a dual quaternion B-Spline approximation method for using in five-axis CNC machines. The advantages of the method are: reduced computation time, reduced storage consuption, reduced number of control points. Also using the dual quaternionic method can eliminate the fitting oscillatory and solve the parameter synchronization problem simultaneously (no idea what this two mean).
+
+** DONE cite:yacob2020
+
+The authors use DQ to compensate for variations in machining process. The variations are differences between the ideal/projected piece and the obtained through machining.
+The common way to compensate variation is using HTM. Using DQ the modeling of the problem became easier as some steps became unnecessary obtaining the same result. Also, DQ allowed to analize other types of form error which the classical model can not analize.
+
+* Motion Planning [1/1]
+
+** DONE cite:oh_study_2017
+
+Alternatively to motion interpolation, cite:oh_study_2017 uses differential geometry and dual curvature theory. The author claims that it makes the expressions simpler and intuitive.
+
+* Robotics [3/4]
+
+** DONE Dual Robots [2/2]
+
+*** DONE cite:chandra2018
+
+The work uses what I think can be classified as a [[file:../dual_robots.org][Dual Robot]] but they call a Dual-Arm robot. The authors use DQ to describe and control the coordinated motion of the arms of the robot. 
+In order to do that, the work defines three reference frames and uses [[file:../relative_jacobian.org][Relative Jacobians]]. Also they parametrize the task to be performed by a [[file:../virtual_mechanism.org][Virtual Mechanism]] that conects both arms. It is an interesting idea, since by doing that they can impose restrictions to the robot arms movement by the layout of the virtual mechanism. So by using this, the whole modeling looks like a two [[file:../kinematic_chains.org][chains]] parallel robot.
+
+*** DONE cite:fu2020
+
+** DONE SLAM [2/2]
+
+*** DONE cite:cheng2016
+
+Parametrizes the [[file:../simultaneous_localization_and_mapping_slam.org][SLAM (Simultaneous Location and Mapping)]] problem using dual-quaternions instead of [[file:../homogeneous_transformation_matrix.org][HTM]]. The problem is solved through a [[file:../graph_theory.org][graph]] approach that in the DQ formulation can have DQs in the vertices and in the edges, because DQs can represent both the state and the restrictions. The proposed solution improves the computational performance when compared to the same approach using HTM.
+
+*** DONE cite:bultmann2019
+
+[[file:../simultaneous_localization_and_mapping_slam.org][SLAM]] using an DQ unscented filter and using the stero visual data.
+Não tenho muito a dizer porque não li muito.
+
+** DONE Aerial Manipulator [1/1]
+
+*** DONE cite:abaunza2017
+
+The work presents modeling and control of a quadcopter with an robotic arm attached, forming a aerial manipulator. Both modeling and control uses dual quaternions.
+The work is very similar to cite:abaunza_quadrotor_2016 (same authors)
+
+** TODO Set-Point Control [0/1]
+*** TODO cite:pham2018
+
+The paper implements a [[file:../set_point_controller.org][set-point controller]] for an industrial 6DOF robot using Dual Quaternions. The authors computes the [[file:../direct_kinematics.org][direct kinematics]] using DQ and [[file:../differential_kinematics.org][differential kinematics]] using DQ as vectors in R8. The error equation is manipulated in order to obtain a matrix times a variable, but the matrix represents the system dynamics. This matrix is then writen in Laplace Domain and becomes a [[file:../transference_matrix.org][Transference Matrix]], so Classic Control techniques can be used. Using this approach, two different control laws are generated using the [[file:../jacobian_matrix.org][Jacobian Matrix]] (which are compared). The authors state that the proposed controllers does not have the best performance, compared to more sophisticated controllers, but it is simple to implement and using Laplace it is possible to tune the controller using dynamic system parameteres as damping factor and natural frequency.
+
+* Estimation [3/3]
+
+** DONE cite:sveier2018
+
+The author presents a [[file:../moving_horizon_estimator_mhe.org][Moving Horizon Estimator]] for [[file:../pose_estimation.org][pose estimation]] using Dual Quaternions. They were able to formulate the [[file:../cost_function.org][cost function]] in terms of the DQ product and so satisfying the unitaryness constraint. Also they discretize the DQ and used a Caley transform presented in an article of Selig.
+The resulting estimator was more accurate them DQ-MEKF (DQ Multiplicative Extended Kalman Filter) and T-UKF (Twistor-bases Unscented Kalman Filter) which the author attributes to the moving horizon strategy (so not only the last result is used).
+
+** DONE cite:dong2019
+
+The authors develop a Dual Quaternion based 6-DOF observer and controller. The controller has a PD-like structure. The observer and controller are validated through simulation of a spacecraft in absensce of both translational and angular velocity measurements.
+
+** DONE cite:sveier2020
+
+The authors develop a Dual Quaternion [[file:../particle_filter.org][Particle Filter]] and test it in the [[file:../pose_estimation.org][pose estimation]] of a hanging payload using point clouds data from a Kinect. The pose estimation is then validated showing accurate results.
+
+* Calibration [2/2]
+
+** DONE cite:wang2018
+
+The work proposes a method for calibrating the transformation between the [[file:../inertial_frame.org][inertial/world frame]] and the [[file:../body_frame.org][robot frame]]. It uses a sensor to measure the position of the [[file:../end_link.org][end-effector]] and calibrates the dual quaternion resposible to acheive the transformation.
+
+The result was much favorable to the dual quaternion method when compared to a quaternion method and a Procrustes Analysis. The authors credits the higher precision of dual quaternions due to the fact that it computes rotation and translation coupled, so there is no error propagation when computing one and using the result to compute the other.
+
+** DONE cite:fu2020
+
+Interesting article about coordinate calibration of [[file:../dual_robots.org][dual robots]] using dual quaternions. The problem itself is very interesting, we have two robot coordinates system, one camera coordinate system and one coordinate system relative to the object being held. So in order to relate all this coordinates systems and assure that they are calibrated, the authors calibrate a hand-eye, a robot-robot and a tool-flange transformations.
+
+* Formation Control [2/2]
+
+** DONE cite:giribet2021
+
+The authors present a cluster-space formation control and apply it to leader-follower configuration using dual quaternions and reducing steady-state errors when compared to previous works. Experiments are made to validade the formation control using a ground and an aerial vehicles, and using two aerial vehicles.
+
+** DONE cite:huang2017
+
+The work proposes a [[file:../formation_control.org][formation control]] using dual quaternions, the formation error is controlled through a [[file:../sliding_modes.org][sliding modes controller]] and one term is added for [[file:../collision_avoidance.org][collision avoidance]] using [[file:../artificial_potential_function.org][Artificial Potential Function]].
+
+* Whole-Body [1/1]
+
+** DONE cite:silva2018
+
+The papers proposes a [[file:../whole_body_control.org][whole-body control]] using [[file:../feedback_linearization.org][Feedback Linearization]] in a DQ framework. Experiments are made using a nonholonomic mobile ground vehicle with 5-DOF [[file:../serial_mechanism.org][manipulator arm]].
+
+* Aerospace [4/4]
+
+** DONE cite:dong2018 
+
+The work shows the control of a [[file:../rendezvous_and_docking.org][Rendezvous and Docking]] process using dual quaternions to describe the kinematics and formulate two restrictions, one for the line of sight of the chaser to the target spacecraft and other to ensure a safe approach path from the chaser to the target in order to not hit any external equipament of the target. The authors use Artificial Potential Functions to formulate the control problem and perform a [[file:../lyapunov_stability_analysis.org][Lyapunov Stability Analysis]]. 
+
+** DONE cite:valverde2018
+
+The work describes an framework to derive the dynamics of a satellite, but it can be used to a general serial mechanism (at least I think), the proposed framework works with revolute, prismatic, cylindrical, spherical and planar joints. The equations are computed using dual quaternions and [[file:../newton_euler_method.org][Newton-Euler formulation]].
+
+** DONE cite:sun2020 
+
+Uses dual quaternions to model an eletromagnetic force with applications in satellites. Also derives the dynamics equations of the satellites subject to this force.
+
+** DONE cite:reynolds2020 
+
+It uses dual quaternions in the [[file:../powered_descent_guidance.org][powered descent guidance]] problem. The article uses several restrictions in the control formulation, it uses a [[file:../line_of_sight_restriction.org][line-of-sight]] restriction (a new type they call slant-range-triggered line-of-sight), also a restriction as a window for the allowed values of the control effort (propulsion power). The control problem is solved through a nonconvex optimization problem.
+
+* Control [0/0]
+
+** Erro [1/1]
+
+*** DONE cite:figueredo_robust_2013
+
+Nova métrica de erro
+
+** MPC [1/1]
+
+*** DONE cite:lee_optimal_2015
+
+Citar junto de cite:lee_constrained_2017.
+
+** Kinematic Control [1/1]
+
+*** DONE cite:ozgur2016
+Tá na parte de Serial Mechanism
+
+** Feedback Linearization [2/2]
+
+*** DONE cite:antonello2018
+
+The work proposes a [[file:../maneuver_regulation.org][Maneuver Regulation]] Feedback Linearization Controller using dual quaternions for a 6Dof free body. The results show better results for the Maneuver Regulation than the [[file:../trajectory_tracking.org][Trajectory Tracking]].
+
+*** DONE cite:silva2018
+
+** Backstepping [1/1]
+
+*** DONE cite:stianandersen2018
+
+The work proposes a Backstepping controller for a fully actuated rigid-body using Dual Quaternions. The controller is proved to be asymptotically stable using Lyapunov.
+
+** Sliding Modes [2/2]
+
+*** DONE cite:dong2017
+
+A fault-tolerant sliding modes controller using dual quaternions is proposed for a target-pursuer spacecraft tracking. The proposed controller can achieve a few desired properties as tracking error converging to zero within a choosed finite time. The faults can be partial or total actuator power loss, actuator offset and locking.
+The controller is used in a simulation showing promising results.
+
+*** DONE cite:huang2017
+
+** $H_\infty$  [1/1]
+
+*** DONE cite:figueredo_robust_2013
+
+Controle robusto do tipo $H_\infty$
+
+[[file:../_refs/figueredo_robust_2013.org][figueredo_robust_2013 | Robust kinematic control of manipulator robots using dual quaternion representation]]
+
+
+** Resolved-Acceleration Control [1/1]
+
+*** DONE cite:chandra2020
+
+The authors propose a new controller using [[file:../resolved_acceleration_control.org][Resolved-Acceleration Control]] (looks like a [[file:../feedback_linearization.org][feedback linearization]]) for the trajectory tracking of serial robotic manipulators using dual quaternions and based on screw theory.
+The controller is compared to a uncoupled controller (which separates translation and orientation) getting similar results, actually performed worse on position but better on orientation.
+
+* Serial Mechanism [2/2]
+
+** DONE cite:ozgur2016
+
+Very interesting article of kinematic modeling and control of robotic arms. It uses a [[file:../screw_theory.org][Screw Theory]] approach to model the kinematics, much like [[file:../successive_screws.org][Successive Screws]], but using only one frame, doesn't need a [[file:../convenient_frame.org][convenient frame]]. Also the metodology is mind opening someway because the authors model the rotations from [[file:../end_link.org][end-effector]] to [[file:../base_link.org][base]], and not the opositte, which in my opinion is easier to understand because going from end to base the successive rotations are not carried by the previous rotations.
+
+** DONE cite:amininan2017 
+
+The paper solves the [[file:../inverse_kinematics.org][inverse kinematics]] of an specific [[file:../serial_mechanism.org][serial 6dof industrial arm]] using dual quaternions. The [[file:../direct_kinematics.org][direct kinematics]] equations are derived using DQ and through manipulating the equations they can solve it for the inverse kinematics problem. Nothing too fancy or new.
+
+* Parallel Mechanism [1/1]
+
+** DONE cite:shabani2021
+
+The authors uses dual quaternions to formulate closure loop equations as a system of multiaffine equations, they then introduce a new branch-and-prune method tailored to this type of equations to solve the system which can reduce computing time up to 2 orders of magnitude compared to traditional approaches.
+
+* Dynamics [2/2]
+
+** DONE cite:valverde2018
+
+The work describes an framework to derive the dynamics of a satellite, but it can be used to a general serial mechanism (at least I think), the proposed framework works with revolute, prismatic, cylindrical, spherical and planar joints. The equations are computed using dual quaternions and [[file:../newton_euler_method.org][Newton-Euler formulation]].
+
+** DONE cite:mirandadefarias2019
+
+The work do a performace study on an Recursive [[file:../newton_euler_method.org][Newton-Euler]] Inverse Dynamics Algorithm using dual quaternions. The algorithm uses Newton-Euler formulation to compute the kinematics and given the desired accelerations and external forces, computes the necessary torques of the motors to drive the system.
+
+They use dual quaternions in the kinematics and kinetics, for the inertia they create an inertia function (so not explicitily a matrix). They use a screw theory approach for the kinematics, not using DH.
+
+The performance of the algorithm using DQ is compared to using HTM, and the result is favorable to DQ, maybe like 33% less cost in terms of number of operations.
+
+* Desvantagens [0/0]
+
+
+* DONE Adicionar as referências lidas.
+
+** DONE Colocar as referencias no General Overview
+
+** DONE Colocar no resto do trabalho
+
+* DONE Coisas a ver no trabalho
+
+** DONE Ver se no meu trabalho eu faço o uso de q1.q2 = 0 onde q = q1 + eps q2
+
+* TODO Fazer as correções de Edson
+
+* TODO O que fazer sobre a parte de Geometric Modeling
+
+- [ ] Tirar 
+- [ ] Deixar junto
+- [ ] Deixar separado
+
+* TODO Após o artigo
+
+** TODO Ler trabalhos de Featherstone citados em cite:ozgur2016
+

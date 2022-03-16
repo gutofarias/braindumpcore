@@ -1,0 +1,8 @@
+#+TITLE: Skew-Symmetric Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-07 Wed 10:38]
+#+LAST_MODIFIED: [2021-07-07 Wed 10:44]
+#+ROAM_TAGS: 
+
+

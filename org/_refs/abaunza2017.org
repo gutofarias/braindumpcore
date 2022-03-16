@@ -1,0 +1,38 @@
+#+TITLE: abaunza2017 | Dual Quaternion Modeling and Control of a Quad-rotor Aerial Manipulator
+#+CREATED: [2021-09-23 Thu 10:43]
+#+LAST_MODIFIED: [2021-09-23 Thu 11:07]
+#+ROAM_KEY: cite:abaunza2017
+#+ROAM_TAGS: 
+
+The work presents modeling and control of a quadcopter with an robotic arm attached, forming a aerial manipulator. Both modeling and control uses dual quaternions.
+The work is very similar to cite:abaunza_quadrotor_2016 (same authors)
+
+* Info
+:PROPERTIES:
+:ID: abaunza2017
+:DOCUMENT_PATH: ../../../Zotero/storage/RBYAL3U2/Abaunza et al. - 2017 - Dual Quaternion Modeling and Control of a Quad-rot.pdf
+:TYPE: Article
+:AUTHOR: Abaunza, H., Castillo, P., Victorino, A., & Lozano, R.
+:YEAR: 2017
+:JOURNAL: J Intell Robot Syst
+:DOI:  http://dx.doi.org/10.1007/s10846-017-0519-4
+:URL: ---
+:KEYWORDS: ---
+:END:
+:ABSTRACT:
+This contribution presents a modeling technique for an aerial manipulator based on a quad-rotor vehicle provided with a robotic arm. Dual quaternions, which are a little explored but powerful mathematical tool, are proposed as an alternative to the classical Euler angles approach for the kinematic and dynamic modeling. A feedback control law based on dual quaternions is used to validate the proposed model, taking into account the external effects of the robotic limb. Numerical simulations and experiments validate the proposal, opening a path for future research.
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/RBYAL3U2/Abaunza et al. - 2017 - Dual Quaternion Modeling and Control of a Quad-rot.pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/RBYAL3U2/Abaunza et al. - 2017 - Dual Quaternion Modeling and Control of a Quad-rot.pdf::5]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/RBYAL3U2/Abaunza et al. - 2017 - Dual Quaternion Modeling and Control of a Quad-rot.pdf::1++0.00;;annot-1-10]]
+:ID:       ../../../Zotero/storage/RBYAL3U2/Abaunza et al. - 2017 - Dual Quaternion Modeling and Control of a Quad-rot.pdf-annot-1-10
+:END:
+
+Trabalho muito similar a cite:abaunza_quadrotor_2016 (inclusive são os mesmos autores).
+O trabalho apresenta a modelagem e controle de um quadcoptero com um braço acoplado usando quatérnios duais.

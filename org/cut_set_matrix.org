@@ -1,0 +1,12 @@
+#+TITLE: Cut-Set Matrix
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2022-02-18 Fri 16:23]
+#+LAST_MODIFIED: [2022-02-18 Fri 16:54]
+#+ROAM_TAGS: 
+
+The cut-set forms a matrix where each column relates to an [[file:graph_edge.org][edge]] of the [[file:action_graph.org][Action Graph]], so there are as many columns as edges.
+
+For each row we [[file:cutting_a_tree_graph.org][cut]] one [[file:branches_in_a_tree_graph.org][branch]] and assess the [[file:positiveness_of_a_tree_graph_cut.org][positiveness]] of the cutted elements. Each column in the row is either +1 if the respective element was cutted positively, -1 if cutted negativelly and 0 if not cutted.
+
+There is one row for each branch in the [[file:coupling_graph.org][Coupling Graph]].

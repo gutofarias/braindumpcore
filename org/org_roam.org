@@ -1,0 +1,14 @@
+#+TITLE: org-roam
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-06-27 Sun 12:49]
+#+LAST_MODIFIED: [2021-06-27 Sun 13:11]
+#+ROAM_TAGS: 
+
+- sources :: [[https://github.com/org-roam/org-roam]], [[https://www.orgroam.com/]]
+
+É um pacote que adiciona funcionalidades do Roam Research pra o org-mode. As funcionalidades são (entre outras):
+- Backlinks
+- Facilidade de criar e linkar anotações/arquivos/citações...
+
+O seu uso é pautado no método [[file:zettelkasten.org][Zettelkasten]].

@@ -1,0 +1,9 @@
+#+TITLE: Rendezvous and Docking
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-09-10 Fri 15:42]
+#+LAST_MODIFIED: [2021-09-10 Fri 15:44]
+#+ROAM_TAGS: 
+
+It is the process of the approach and docking of a chaser spacecraft into a target spacecraft.
+

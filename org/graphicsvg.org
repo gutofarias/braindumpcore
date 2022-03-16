@@ -1,0 +1,11 @@
+#+TITLE: GraphicSVG
+#+AUTHOR: João Gutemberg Farias
+#+EMAIL: joao.gutemberg.farias@gmail.com
+#+CREATED: [2021-07-27 Tue 15:58]
+#+LAST_MODIFIED: [2021-07-27 Tue 16:01]
+#+ROAM_TAGS: 
+
+- tags :: [[file:elm.org][Elm]]
+- source :: https://package.elm-lang.org/packages/MacCASOutreach/graphicsvg/latest/
+
+Pacote muito promissor que irei investigar pra gerar vector graphics no Elm.

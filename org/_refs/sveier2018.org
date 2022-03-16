@@ -1,0 +1,36 @@
+#+TITLE: sveier2018 | Pose Estimation using Dual Quaternions and Moving Horizon Estimation
+#+CREATED: [2021-09-16 Thu 18:05]
+#+LAST_MODIFIED: [2021-09-16 Thu 18:14]
+#+ROAM_KEY: cite:sveier2018
+#+ROAM_TAGS: 
+
+The author presents a [[file:../moving_horizon_estimator_mhe.org][Moving Horizon Estimator]] for [[file:../pose_estimation.org][pose estimation]] using Dual Quaternions. They were able to formulate the [[file:../cost_function.org][cost function]] in terms of the DQ product and so satisfying the unitaryness constraint. Also they discretize the DQ and used a Caley transform presented in an article of Selig.
+The resulting estimator was more accurate them DQ-MEKF (DQ Multiplicative Extended Kalman Filter) and T-UKF (Twistor-bases Unscented Kalman Filter) which the author attributes to the moving horizon strategy (so not only the last result is used).
+
+* Info
+:PROPERTIES:
+:ID: sveier2018
+:DOCUMENT_PATH: ../../../Zotero/storage/F7P94T86/Sveier e Egeland - 2018 - Pose Estimation using Dual Quaternions and Moving .pdf
+:TYPE: Article
+:AUTHOR: Sveier, A., & Egeland, O.
+:YEAR: 2018
+:JOURNAL: IFAC-PapersOnLine
+:DOI:  http://dx.doi.org/10.1016/j.ifacol.2018.07.275
+:URL: ---
+:KEYWORDS: ---
+:ABSTRACT: ---
+:END:
+
+* Notes
+:PROPERTIES:
+:NOTER_DOCUMENT: ../../../Zotero/storage/F7P94T86/Sveier e Egeland - 2018 - Pose Estimation using Dual Quaternions and Moving .pdf
+:NOTER_PAGE: [[pdf:/Users/guto/Sync/Projetos/Zotero/storage/F7P94T86/Sveier e Egeland - 2018 - Pose Estimation using Dual Quaternions and Moving .pdf::1]]
+:END:
+** Resumo
+:PROPERTIES:
+:NOTER_PAGE: [[pdf:~/Sync/Projetos/Zotero/storage/F7P94T86/Sveier e Egeland - 2018 - Pose Estimation using Dual Quaternions and Moving .pdf::1++0.00;;annot-1-0]]
+:ID:       ../../../Zotero/storage/F7P94T86/Sveier e Egeland - 2018 - Pose Estimation using Dual Quaternions and Moving .pdf-annot-1-0
+:END:
+
+The author presents a Moving Horizon Estimator for pose estimation using Dual Quaternions. They were able to formulate the cost function in terms of the DQ product and so satisfying the unitaryness constraint. Also they discretize the DQ and used a Caley transform presented in an article of Selig.
+The resulting estimator was more accurate them DQ-MEKF (DQ Multiplicative Extended Kalman Filter) and T-UKF (Twistor-bases Unscented Kalman Filter) which the author attributes to the moving horizon strategy (so not only the last result is used).
