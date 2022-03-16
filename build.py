@@ -4,12 +4,18 @@
 import glob
 from pathlib import Path
 
-files = glob.glob('/Users/guto/Sync/Projetos/org/hugo/org/**/*.org')
+mypath = '/Users/guto/Sync/Projetos/org/git/braindump/'
+glob1 = mypath + 'org/*.org'
+glob2 = mypath + 'org/**/*.org'
+
+# files = glob.glob(glob1,recursive=True)
+files = glob.glob(glob2,recursive=True)
+
 
 with open('build.ninja', 'w') as ninja_file:
     ninja_file.write("""
 rule org2md
-  command = emacs --batch -l ~/.emacs -l /Users/guto/Sync/Projetos/org/hugo/publish.el --eval \"(jethro/publish \\"$in\\")\"
+  command = emacs --batch -l ~/.emacs -l /Users/guto/Sync/Projetos/org/git/braindump/publish.el --eval \"(jethro/publish \\"$in\\")\"
   description = org2md $in
 """)
     
