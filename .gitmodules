@@ -1,0 +1,3 @@
+[submodule "braindump"]
+	path = public
+	url = https://github.com/gutofarias/braindump.git
