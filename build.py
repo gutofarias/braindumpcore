@@ -5,6 +5,7 @@ import glob
 from pathlib import Path
 
 mypath = '/Users/guto/Sync/Projetos/org/git/braindump/'
+content_path = "\\\"" + mypath + "\\\""
 glob1 = mypath + 'org/*.org'
 glob2 = mypath + 'org/**/*.org'
 
@@ -15,7 +16,7 @@ files = glob.glob(glob2,recursive=True)
 with open('build.ninja', 'w') as ninja_file:
     ninja_file.write("""
 rule org2md
-  command = emacs --batch -l ~/.emacs -l /Users/guto/Sync/Projetos/org/git/braindump/publish.el --eval \"(jethro/publish \\"$in\\")\"
+  command = emacs --batch -l ~/.emacs -l """ + mypath + """publish.el --eval \"(jethro/publish \\"$in\\" """ + content_path + """)\"
   description = org2md $in
 """)
     

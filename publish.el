@@ -1,6 +1,6 @@
-(defun jethro/publish (file)
+(defun jethro/publish (file content_path)
   (with-current-buffer (find-file-noselect file t)
     ;; (projectile-mode -1)
     ;; (dtrt-indent-mode -1)
-    (setq org-hugo-base-dir "~/Sync/Projetos/org/hugo")
+    (setq org-hugo-base-dir content_path)
     (org-hugo-export-wim-to-md)))
