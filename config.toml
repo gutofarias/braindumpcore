@@ -1,10 +1,10 @@
-baseURL = "https://braindump.jethro.dev/"
+baseURL = "http://localhost:1313/"
 languageCode = "en-us"
-title = "Jethro's Braindump"
+title = "João Gutemberg Braindump"
 theme = "cortex"
 
 [params]
-email = "jethrokuan95@gmail.com"
+email = "joao.gutemberg.farias@gmail.com"
 footer = "Icon by Freepik. Built with ♥ with Org-mode and Hugo."
 
 [markup]
