@@ -3,8 +3,8 @@
 
 :root {
     /* --primary: rgba(127, 255, 212, 0.6); */
-    --primary: bisque;
-    --header: darkgoldenrod;
+    --primary: burlywood;
+    --header: darksalmon;
 
   /* --fg: #eee; */
   --fg: beige;
@@ -18,6 +18,7 @@
   --backlink-color: rgba(127, 255, 212, 0.6);
   --active-link-background-color: #444;
   --shadow-color: rgba(0, 0, 0, 0.2);}
+
 
 
 html,
@@ -155,6 +156,7 @@ header {
   margin-right: 15px;
 }
 
+
 .content {
   padding: 50px;
 }
@@ -207,6 +209,7 @@ iframe {
   overflow: hidden;
   overflow-y: hidden;
   border: none;
+
 }
 
 .tippy-box > .tippy-arrow:before {
@@ -322,3 +325,4 @@ dt + dt + dd {
     display: none;
   }
 }
+
