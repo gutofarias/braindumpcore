@@ -6,6 +6,7 @@ languageCode = "en-us"
 title = "João Gutemberg Braindump"
 theme = "cortex"
 # theme = "cortex-dark"
+# theme = "HugoTex"
 
 [params]
 email = "joao.gutemberg.farias@gmail.com"
