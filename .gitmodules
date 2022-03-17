@@ -1,3 +1,6 @@
 [submodule "braindump"]
 	path = public
 	url = https://github.com/gutofarias/braindump.git
+[submodule "themes/cortex-tex-dark"]
+	path = themes/cortex-tex-dark
+	url = https://github.com/gutofarias/cortex-tex-dark.git
