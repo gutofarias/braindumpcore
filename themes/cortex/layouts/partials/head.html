@@ -8,3 +8,9 @@
 
 {{ $main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $main.Permalink }}"/>
+
+
+
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/latex.css" /> -->
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/main.css" /> -->
+<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}css/darkmode.css" /> -->
